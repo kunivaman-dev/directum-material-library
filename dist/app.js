@@ -38,9 +38,10 @@ const grid=document.querySelector('#grid');
 const search=document.querySelector('#search');
 const styleFilter=document.querySelector('#style-filter');
 const paletteSelect=document.querySelector('#palette');
-const paletteControl=document.querySelector('.palette-control');
-const lineColorSelect=document.querySelector('#line-color');
-const lineColorControl=document.querySelector('#line-color-control');
+const extendedColorOptions=[
+  document.querySelector('#black-color-option'),
+  document.querySelector('#white-color-option')
+];
 const dialogPreview=document.querySelector('.dialog-preview');
 const nav=document.querySelector('#categories');
 const count=document.querySelector('#visible-count');
@@ -51,7 +52,7 @@ let category='Все';
 let current=null;
 let currentVariant=null;
 const palettes={
-  orange:{name:'Directum',brand:'#FF8000',fade:'#FFD299'},
+  directum:{name:'Directum',brand:'#FF8000',fade:'#FFD299'},
   esm:{name:'ESM',brand:'#2195BE',fade:'#74EAFC'},
   hrpro:{name:'HR Pro',brand:'#A4305A',fade:'#D77598'},
   projects:{name:'Projects',brand:'#70AC30',fade:'#96D447'},
@@ -107,9 +108,9 @@ function openIcon(icon){
 function setVariant(variant){
   currentVariant=variant;
   const singleColor=singleColorVariants.has(variant.label);
-  paletteControl.hidden=singleColor;
-  lineColorControl.hidden=!singleColor;
-  dialogPreview.classList.toggle('white-icon',singleColor&&lineColorSelect.value==='white');
+  extendedColorOptions.forEach(option=>{option.hidden=!singleColor;option.disabled=!singleColor});
+  if(!singleColor&&(paletteSelect.value==='black'||paletteSelect.value==='white'))paletteSelect.value='directum';
+  dialogPreview.classList.toggle('white-icon',singleColor&&paletteSelect.value==='white');
   const img=document.querySelector('#detail-img');
   img.src=variant.file;
   img.alt=current.name+' — '+variant.label;
@@ -123,8 +124,8 @@ function recolorSingleColor(svg,color){
 }
 async function paletteSource(variant){
   if(singleColorVariants.has(variant.label)){
-    const color=lineColors[lineColorSelect.value]||lineColors.directum;
-    const key=variant.file+'|single|'+lineColorSelect.value;
+    const color=lineColors[paletteSelect.value]||lineColors.directum;
+    const key=variant.file+'|single|'+paletteSelect.value;
     if(recoloredUrls.has(key))return recoloredUrls.get(key);
     const response=await fetch(variant.file);
     if(!response.ok)throw new Error('Asset unavailable');
@@ -133,8 +134,8 @@ async function paletteSource(variant){
     recoloredUrls.set(key,url);
     return url;
   }
-  const palette=palettes[paletteSelect.value]||palettes.orange;
-  if(palette===palettes.orange)return variant.file;
+  const palette=palettes[paletteSelect.value]||palettes.directum;
+  if(palette===palettes.directum)return variant.file;
   const key=variant.file+'|'+paletteSelect.value;
   if(recoloredUrls.has(key))return recoloredUrls.get(key);
   const response=await fetch(variant.file);
@@ -150,7 +151,7 @@ async function updatePreview(){
   const request=++previewRequest;
   const img=document.querySelector('#detail-img');
   try{
-    dialogPreview.classList.toggle('white-icon',singleColorVariants.has(currentVariant.label)&&lineColorSelect.value==='white');
+    dialogPreview.classList.toggle('white-icon',singleColorVariants.has(currentVariant.label)&&paletteSelect.value==='white');
     const source=await paletteSource(currentVariant);
     if(request===previewRequest)img.src=source;
   }catch(error){
@@ -163,10 +164,10 @@ document.querySelector('#variants').addEventListener('change',e=>{
 });
 function download(url,name){const a=document.createElement('a');a.href=url;a.download=name;document.body.append(a);a.click();a.remove()}
 async function downloadSvg(icon){
-  const palette=palettes[paletteSelect.value]||palettes.orange;
+  const palette=palettes[paletteSelect.value]||palettes.directum;
   const source=await paletteSource(currentVariant);
   const colorName=singleColorVariants.has(currentVariant.label)
-    ?(lineColors[lineColorSelect.value]||lineColors.directum).name
+    ?(lineColors[paletteSelect.value]||lineColors.directum).name
     :palette.name;
   download(source,icon.name+'-'+currentVariant.label+'-'+colorName.toLocaleLowerCase('ru')+'.svg');
 }
@@ -201,7 +202,6 @@ grid.addEventListener('click',e=>{const b=e.target.closest('[data-id]');if(b)ope
 search.addEventListener('input',render);
 styleFilter.addEventListener('change',render);
 paletteSelect.addEventListener('change',updatePreview);
-lineColorSelect.addEventListener('change',updatePreview);
 document.addEventListener('keydown',e=>{if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'){e.preventDefault();search.focus()}if(e.key==='Escape'&&dialog.open)dialog.close()});
 document.querySelector('.dialog-close').addEventListener('click',()=>dialog.close());
 dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close()});
