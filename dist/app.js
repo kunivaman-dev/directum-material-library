@@ -38,6 +38,10 @@ const grid=document.querySelector('#grid');
 const search=document.querySelector('#search');
 const styleFilter=document.querySelector('#style-filter');
 const paletteSelect=document.querySelector('#palette');
+const paletteControl=document.querySelector('.palette-control');
+const lineColorSelect=document.querySelector('#line-color');
+const lineColorControl=document.querySelector('#line-color-control');
+const dialogPreview=document.querySelector('.dialog-preview');
 const nav=document.querySelector('#categories');
 const count=document.querySelector('#visible-count');
 const filterLabel=document.querySelector('#active-filter');
@@ -54,6 +58,17 @@ const palettes={
   omni:{name:'Omni',brand:'#9541C0',fade:'#C99FDF'},
   targets:{name:'Targets',brand:'#0043A4',fade:'#79AEF9'}
 };
+const lineColors={
+  directum:{name:'Directum',value:'#FF8000'},
+  esm:{name:'ESM',value:'#2195BE'},
+  hrpro:{name:'HR Pro',value:'#A4305A'},
+  projects:{name:'Projects',value:'#70AC30'},
+  omni:{name:'Omni',value:'#9541C0'},
+  targets:{name:'Targets',value:'#0043A4'},
+  black:{name:'Чёрный',value:'#000000'},
+  white:{name:'Белый',value:'#FFFFFF'}
+};
+const singleColorVariants=new Set(['outline','small-outline','mono']);
 const recoloredUrls=new Map();
 let previewRequest=0;
 
@@ -91,13 +106,33 @@ function openIcon(icon){
 }
 function setVariant(variant){
   currentVariant=variant;
+  const singleColor=singleColorVariants.has(variant.label);
+  paletteControl.hidden=singleColor;
+  lineColorControl.hidden=!singleColor;
+  dialogPreview.classList.toggle('white-icon',singleColor&&lineColorSelect.value==='white');
   const img=document.querySelector('#detail-img');
   img.src=variant.file;
   img.alt=current.name+' — '+variant.label;
   document.querySelector('#variant-size').textContent=variant.width?'Исходный размер: '+variant.width+' × '+variant.height+' px':'Исходный вариант из Figma';
   updatePreview();
 }
+function recolorSingleColor(svg,color){
+  return svg
+    .replace(/\b(stroke|fill)="(?!none\b|transparent\b|url\()[^"]+"/gi,(match,attribute)=>attribute+'="'+color+'"')
+    .replace(/\b(stroke|fill):\s*(?!none\b|transparent\b|url\()[^;"']+/gi,(match,attribute)=>attribute+':'+color);
+}
 async function paletteSource(variant){
+  if(singleColorVariants.has(variant.label)){
+    const color=lineColors[lineColorSelect.value]||lineColors.directum;
+    const key=variant.file+'|single|'+lineColorSelect.value;
+    if(recoloredUrls.has(key))return recoloredUrls.get(key);
+    const response=await fetch(variant.file);
+    if(!response.ok)throw new Error('Asset unavailable');
+    const svg=recolorSingleColor(await response.text(),color.value);
+    const url=URL.createObjectURL(new Blob([svg],{type:'image/svg+xml'}));
+    recoloredUrls.set(key,url);
+    return url;
+  }
   const palette=palettes[paletteSelect.value]||palettes.orange;
   if(palette===palettes.orange)return variant.file;
   const key=variant.file+'|'+paletteSelect.value;
@@ -115,6 +150,7 @@ async function updatePreview(){
   const request=++previewRequest;
   const img=document.querySelector('#detail-img');
   try{
+    dialogPreview.classList.toggle('white-icon',singleColorVariants.has(currentVariant.label)&&lineColorSelect.value==='white');
     const source=await paletteSource(currentVariant);
     if(request===previewRequest)img.src=source;
   }catch(error){
@@ -129,7 +165,10 @@ function download(url,name){const a=document.createElement('a');a.href=url;a.dow
 async function downloadSvg(icon){
   const palette=palettes[paletteSelect.value]||palettes.orange;
   const source=await paletteSource(currentVariant);
-  download(source,icon.name+'-'+currentVariant.label+'-'+palette.name.toLocaleLowerCase('ru')+'.svg');
+  const colorName=singleColorVariants.has(currentVariant.label)
+    ?(lineColors[lineColorSelect.value]||lineColors.directum).name
+    :palette.name;
+  download(source,icon.name+'-'+currentVariant.label+'-'+colorName.toLocaleLowerCase('ru')+'.svg');
 }
 async function downloadPng(icon){
   const variant=currentVariant;
@@ -162,6 +201,7 @@ grid.addEventListener('click',e=>{const b=e.target.closest('[data-id]');if(b)ope
 search.addEventListener('input',render);
 styleFilter.addEventListener('change',render);
 paletteSelect.addEventListener('change',updatePreview);
+lineColorSelect.addEventListener('change',updatePreview);
 document.addEventListener('keydown',e=>{if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'){e.preventDefault();search.focus()}if(e.key==='Escape'&&dialog.open)dialog.close()});
 document.querySelector('.dialog-close').addEventListener('click',()=>dialog.close());
 dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close()});
