@@ -1,0 +1,20 @@
+<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="25" y="52" width="47" height="27" rx="2" transform="rotate(-90 25 52)" fill="white" stroke="#1C2150" stroke-width="2"/>
+<line x1="38.5" y1="46.5" x2="38.5" y2="10.5" stroke="#1C2150" stroke-linecap="round"/>
+<ellipse cx="45" cy="41" rx="3" ry="3" transform="rotate(-90 45 41)" fill="#FF8000"/>
+<ellipse cx="45" cy="32" rx="3" ry="3" transform="rotate(-90 45 32)" fill="#FF8000"/>
+<ellipse cx="45" cy="23" rx="3" ry="3" transform="rotate(-90 45 23)" fill="#FF8000"/>
+<ellipse cx="45" cy="14" rx="3" ry="3" transform="rotate(-90 45 14)" fill="#FF8000"/>
+<ellipse cx="32" cy="43" rx="3" ry="3" transform="rotate(-90 32 43)" fill="#FF8000"/>
+<ellipse cx="32" cy="32" rx="3" ry="3" transform="rotate(-90 32 32)" fill="#FF8000"/>
+<ellipse cx="32" cy="23" rx="3" ry="3" transform="rotate(-90 32 23)" fill="#FF8000"/>
+<ellipse cx="32" cy="14" rx="3" ry="3" transform="rotate(-90 32 14)" fill="#FF8000"/>
+<rect x="3" y="37" width="37" height="16" rx="8" fill="white" stroke="#1C2150" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M11 37.5H21.5V52.5H11C6.85786 52.5 3.5 49.1421 3.5 45C3.5 40.8579 6.85786 37.5 11 37.5Z" fill="#FFD299" stroke="#1C2150" stroke-miterlimit="10"/>
+<line x1="21.5" y1="53" x2="21.5" y2="37" stroke="#1C2150"/>
+<path d="M16.5 40.5H11.5C8.73858 40.5 6.5 42.7386 6.5 45.5" stroke="#1C2150" stroke-linecap="round"/>
+<path d="M26.5 49.5H31.5C34.2614 49.5 36.5 47.2614 36.5 44.5" stroke="#1C2150" stroke-linecap="round"/>
+<circle cx="12.5" cy="25.5" r="9.5" fill="white" stroke="#1C2150" stroke-width="2" stroke-miterlimit="10"/>
+<line x1="5.64645" y1="31.9602" x2="18.6464" y2="18.9602" stroke="#1C2150"/>
+</svg>
+

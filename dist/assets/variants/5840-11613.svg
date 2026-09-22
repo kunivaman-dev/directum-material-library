@@ -1,0 +1,13 @@
+<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10 13H46V14H10V13Z" fill="black"/>
+<rect x="15.5" y="0.5" width="3" height="9" rx="1.5" stroke="black"/>
+<rect x="36.5" y="0.5" width="3" height="9" rx="1.5" stroke="black"/>
+<path d="M41.5 21.5L14.5 21.5" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M30.5 27.5L14.5 27.5" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M28.5 33.5H14.5" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="23.5" y1="39.5" x2="14.5" y2="39.5" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="43.5" cy="37.5" r="11.5" stroke="black" stroke-width="2"/>
+<path d="M48 38H43V31" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M11 6H15V4H11C9.34315 4 8 5.34315 8 7V51C8 52.6569 9.34315 54 11 54H45C46.6569 54 48 52.6569 48 51V49.1655C47.3573 49.4136 46.6889 49.6101 46 49.75V51C46 51.5523 45.5523 52 45 52H11C10.4477 52 10 51.5523 10 51V7C10 6.44772 10.4477 6 11 6ZM36 6H19V4H36V6ZM40 6H45C45.5523 6 46 6.44771 46 7V25.25C46.6889 25.3899 47.3573 25.5864 48 25.8345V7C48 5.34315 46.6569 4 45 4H40V6Z" fill="black"/>
+</svg>
+

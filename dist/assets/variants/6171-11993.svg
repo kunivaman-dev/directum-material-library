@@ -1,0 +1,14 @@
+<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M38 2V11H47" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M24 17.5H41" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M24 26.5H41" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M24 35.5H35" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="14.5" y="14.5" width="5" height="5" rx="0.5" stroke="black"/>
+<rect x="14.5" y="23.5" width="5" height="5" rx="0.5" stroke="black"/>
+<rect x="14.5" y="32.5" width="5" height="5" rx="0.5" stroke="black"/>
+<path d="M14.5 49.603C16.1714 49.603 17.1406 49.139 17.9726 48.4947C24.2552 43.9381 16.6667 40.0983 16.6667 46.0303C16.6667 48.2664 18.0662 50 19.2667 50C20.1333 50 20.4429 49.3729 20.4429 48.2664C20.4429 47.8041 20.9092 47.4461 20.928 47.6144C20.9972 48.2376 21.3882 49.1699 21.9286 49.436C22.8739 49.8162 22.55 47.7143 22.7385 47.8839C22.8775 48.009 22.9553 48.3582 23.0413 48.5187C23.3262 49.0495 23.7297 49.4486 24.4625 49.4139C25.7806 49.3515 25.3721 47.5651 25.8536 47.4318C25.9321 47.4101 26.0143 48.2663 27.5 48.4947" stroke="black" stroke-width="0.846754" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M46 54H10C9.44772 54 9 53.5523 9 53V3C9 2.44772 9.44771 2 10 2H37.6895L47 11.0283V34H49V10.1818L38.5 0H10C8.34315 0 7 1.34314 7 3V53C7 54.6569 8.34315 56 10 56H46C47.6569 56 49 54.6569 49 53V49H47V53C47 53.5523 46.5523 54 46 54Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M44.0002 42V42.0005V49.8824V51.0005L45.0003 50.5005L48.0003 49.0005L51.0002 50.5005L52.0003 51.0005V49.8824V42.0005V41.0005H52V42H44.0002ZM47.553 48.106L45.0003 49.3824V42.0005H51.0002V49.3824L48.4475 48.106C48.166 47.9653 47.8346 47.9653 47.553 48.106Z" fill="black"/>
+<path d="M48 34C50.7477 34 53 36.2523 53 39C53 41.7477 50.7477 44 48 44C45.2523 44 43 41.7477 43 39C43 36.2523 45.2523 34 48 34Z" stroke="black" stroke-width="2.00011"/>
+</svg>
+

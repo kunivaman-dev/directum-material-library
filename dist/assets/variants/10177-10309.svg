@@ -1,0 +1,22 @@
+<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="3" y="21" width="16" height="31" rx="1" fill="white" stroke="#1C2150" stroke-width="2"/>
+<rect x="17" y="2" width="13" height="7" rx="1" fill="#FFD299"/>
+<rect x="27" y="12" width="16" height="13" rx="1" fill="white" stroke="#1C2150" stroke-width="2"/>
+<rect x="29.5" y="16.5" width="14" height="9" rx="1.5" stroke="#1C2150"/>
+<rect x="30" y="21" width="16" height="31" rx="1" fill="white" stroke="#1C2150" stroke-width="2"/>
+<rect x="14" y="7" width="19" height="45" rx="1" fill="white" stroke="#1C2150" stroke-width="2"/>
+<path d="M39 6.5V11.45" stroke="#1C2150" stroke-width="2" stroke-linecap="round"/>
+<path d="M5 16V20.95" stroke="#1C2150" stroke-width="2" stroke-linecap="round"/>
+<path d="M46 26H33" stroke="#1C2150" stroke-width="2"/>
+<path d="M18.5 7V52" stroke="#1C2150" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21.5 7V52" stroke="#1C2150" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M11.6914 41C11.9674 41.0001 12.1914 41.2239 12.1914 41.5C12.1914 41.7761 11.9674 41.9999 11.6914 42H5.43848C5.16233 42 4.93848 41.7761 4.93848 41.5C4.93848 41.2239 5.16233 41 5.43848 41H11.6914ZM11.6914 37C11.9674 37.0001 12.1914 37.2239 12.1914 37.5C12.1914 37.7761 11.9674 37.9999 11.6914 38H5.43848C5.16233 38 4.93848 37.7761 4.93848 37.5C4.93848 37.2239 5.16233 37 5.43848 37H11.6914ZM11.6914 33C11.9674 33.0001 12.1914 33.2239 12.1914 33.5C12.1914 33.7761 11.9674 33.9999 11.6914 34H5.43848C5.16233 34 4.93848 33.7761 4.93848 33.5C4.93848 33.2239 5.16233 33 5.43848 33H11.6914ZM11.6914 29C11.9674 29.0001 12.1914 29.2239 12.1914 29.5C12.1914 29.7761 11.9674 29.9999 11.6914 30H5.43848C5.16233 30 4.93848 29.7761 4.93848 29.5C4.93848 29.2239 5.16233 29 5.43848 29H11.6914ZM11.6914 25C11.9674 25.0001 12.1914 25.2239 12.1914 25.5C12.1914 25.7761 11.9674 25.9999 11.6914 26H5.43848C5.16233 26 4.93848 25.7761 4.93848 25.5C4.93848 25.2239 5.16233 25 5.43848 25H11.6914Z" fill="#1C2150"/>
+<rect x="43.5" y="40" width="4" height="12" fill="#FFD299"/>
+<rect x="34.5" y="36" width="21" height="5" rx="1" fill="#FF8000"/>
+<rect x="34.5" y="43" width="21" height="5" rx="1" fill="#FF8000"/>
+<rect x="34.5" y="50" width="21" height="5" rx="1" fill="#FF8000"/>
+<rect x="36.5" y="37" width="2" height="2" fill="white"/>
+<rect x="36.5" y="44" width="2" height="2" fill="white"/>
+<rect x="36.5" y="51" width="2" height="2" fill="white"/>
+</svg>
+

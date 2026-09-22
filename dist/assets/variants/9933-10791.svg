@@ -1,0 +1,17 @@
+<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15 6H11C10.4477 6 10 6.44772 10 7V51C10 51.5523 10.4477 52 11 52H45C45.5523 52 46 51.5523 46 51V7C46 6.44771 45.5523 6 45 6H40V4H45C46.6569 4 48 5.34315 48 7V51L47.9961 51.1543C47.9184 52.6883 46.6883 53.9184 45.1543 53.9961L45 54H11L10.8457 53.9961C9.31166 53.9184 8.08163 52.6883 8.00391 51.1543L8 51V7C8 5.34315 9.34315 4 11 4H15V6ZM36 6H19V4H36V6Z" fill="black"/>
+<rect x="15.5" y="0.5" width="3" height="9" rx="1.5" stroke="black"/>
+<rect x="36.5" y="0.5" width="3" height="9" rx="1.5" stroke="black"/>
+<mask id="path-4-inside-1_9933_10791" fill="white">
+<rect x="13" y="34" width="12" height="12" rx="1"/>
+</mask>
+<rect x="13" y="34" width="12" height="12" rx="1" stroke="black" stroke-width="4" mask="url(#path-4-inside-1_9933_10791)"/>
+<rect x="32" y="35" width="10" height="10" rx="1" fill="white" stroke="black" stroke-width="2"/>
+<path d="M22 25H20C19.4477 25 19 25.4477 19 26V33" stroke="black" stroke-width="2"/>
+<path d="M19.5859 32L19 32.5859L18.4141 32H19.5859Z" stroke="black" stroke-width="2"/>
+<path d="M38.5859 32L38 32.5859L37.4141 32H38.5859Z" stroke="black" stroke-width="2"/>
+<path d="M34 25H37C37.5523 25 38 25.4477 38 26V33" stroke="black" stroke-width="2"/>
+<path d="M33.5859 25L28 30.5859L22.4141 25L28 19.4141L33.5859 25Z" stroke="black" stroke-width="2"/>
+<line x1="46" y1="13" x2="10" y2="13" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+</svg>
+

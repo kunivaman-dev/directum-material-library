@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Фирменные иконки Directum: поиск, просмотр и скачивание в SVG и PNG.">
+  <title>Иконки Directum</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231C2150'/%3E%3Cpath d='M9 8h6.8c5.2 0 8.2 3 8.2 8s-3 8-8.2 8H9V8Zm5 4v8h1.5c2.4 0 3.5-1.3 3.5-4s-1.1-4-3.5-4H14Z' fill='%23FF7A00'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="Иконки Directum">
+      <span class="brand-mark">D</span>
+      <span class="brand-copy"><b>Directum</b><small>Icon library</small></span>
+    </a>
+    <nav class="product-nav" aria-label="Разделы дизайн-системы">
+      <a class="active" href="index.html">Иконки</a>
+      <a href="logobook.html">Логобук</a>
+    </nav>
+    <a class="figma-link" href="https://www.figma.com/design/nCpoXr1g7y4CP4BNBCIas8/" target="_blank" rel="noreferrer"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M14 5h5v5M10 14 19 5M19 14v5H5V5h5"/></svg><span>Открыть в Figma</span></a>
+  </header>
+
+  <main class="shell">
+    <aside class="sidebar">
+      <div class="side-title">Навигация</div>
+      <nav id="categories" aria-label="Категории иконок"></nav>
+      <div class="side-note">
+        <span class="note-dot"></span>
+        <span>Исходники из фирменной библиотеки Figma</span>
+      </div>
+    </aside>
+
+    <section class="content">
+      <div class="catalog-head">
+        <div>
+          <div class="eyebrow">Directum Design System</div>
+          <h1>Фирменные иконки</h1>
+          <p class="lead">Выберите начертание и скачайте иконку в SVG или PNG.</p>
+        </div>
+        <div class="counter"><strong id="visible-count">0</strong><span>иконок</span></div>
+      </div>
+
+      <div class="toolbar">
+        <label class="search">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.35-4.35m2.35-5.15A7.5 7.5 0 1 1 4 11.5a7.5 7.5 0 0 1 15 0Z"/></svg>
+          <input id="search" type="search" placeholder="Поиск по названию" autocomplete="off">
+          <kbd>⌘ K</kbd>
+        </label>
+        <label class="style-filter"><span>Вариант</span>
+          <select id="style-filter"><option value="">Все варианты</option><option>base</option><option>outline</option><option>3d</option><option>small</option><option>small-outline</option></select>
+        </label>
+      </div>
+
+      <div id="active-filter" class="active-filter">Все иконки</div>
+      <div id="grid" class="icon-grid" aria-live="polite"></div>
+      <div id="empty" class="empty" hidden>
+        <div class="empty-icon">⌕</div>
+        <h2>Ничего не найдено</h2>
+        <p>Попробуйте другое название или выберите все категории.</p>
+        <button id="reset" type="button">Сбросить фильтры</button>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="detail" aria-labelledby="detail-name">
+    <button class="dialog-close" aria-label="Закрыть" type="button">×</button>
+    <div class="dialog-preview"><img id="detail-img" alt=""></div>
+    <div class="dialog-info">
+      <div id="detail-cat" class="eyebrow"></div>
+      <h2 id="detail-name"></h2>
+      <label class="palette-control">Цветовая гамма
+        <select id="palette">
+          <option value="orange">Directum</option>
+          <option value="esm">ESM</option>
+          <option value="hrpro">HR Pro</option>
+          <option value="projects">Projects</option>
+          <option value="omni">Omni</option>
+          <option value="targets">Targets</option>
+        </select>
+      </label>
+      <fieldset class="variants"><legend>Вариант</legend><div id="variants"></div></fieldset>
+      <p id="variant-size" aria-live="polite"></p>
+      <div class="download-row">
+        <button id="download-svg" class="button primary" type="button">Скачать SVG</button>
+        <button id="download-png" class="button secondary" type="button">Скачать PNG</button>
+      </div>
+      <label class="size-control">Размер PNG
+        <select id="png-size"><option value="original">Исходный размер</option><option value="56">56 px</option><option value="112">112 px</option><option value="256">256 px</option><option value="512">512 px</option></select>
+      </label>
+    </div>
+  </dialog>
+
+  <script>window.ICON_DATA=[{"id":"5418:16984","name":"Mobile","cat":"Общие","file":"assets/icons/01-mobile.svg"},{"id":"7589:11171","name":"Кроссплатформенность","cat":"Общие","file":"assets/icons/02-кроссплатформенность.svg"},{"id":"5418:16793","name":"Нет бумаги","cat":"Общие","file":"assets/icons/03-нет-бумаги.svg"},{"id":"5655:11722","name":"Оборонно-промышленный комплекс","cat":"Отрасли","file":"assets/icons/04-оборонно-промышленный-комплекс.svg"},{"id":"5418:16953","name":"Events","cat":"Коммуникации","file":"assets/icons/04-events.svg"},{"id":"5418:16974","name":"News","cat":"Коммуникации","file":"assets/icons/05-news.svg"},{"id":"5418:17021","name":"Job","cat":"HR","file":"assets/icons/06-job.svg"},{"id":"5418:17130","name":"Учетная система","cat":"Системы","file":"assets/icons/07-учетная-система.svg"},{"id":"11271:10587","name":"Единая номенклатура дел","cat":"Документы","file":"assets/icons/07-единая-номенклатура-дел.svg"},{"id":"10369:10340","name":"Технологическая документация","cat":"Документы","file":"assets/icons/08-технологическая-документация.svg"},{"id":"4499:6898","name":"МЧД","cat":"Документы","file":"assets/icons/09-мчд.svg"},{"id":"7291:11156","name":"Ознакомление","cat":"Документы","file":"assets/icons/10-ознакомление.svg"},{"id":"1:10609","name":"Договор","cat":"Документы","file":"assets/icons/11-договор.svg"},{"id":"325:7291","name":"Документ со штрихкодом","cat":"Документы","file":"assets/icons/13-документ-со-штрихкодом.svg"},{"id":"2347:2572","name":"PDF","cat":"Форматы файлов","file":"assets/icons/12-pdf.svg"},{"id":"10416:10440","name":"XML","cat":"Форматы файлов","file":"assets/icons/16-xml.svg"}];</script>
+  <script src="variants.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
