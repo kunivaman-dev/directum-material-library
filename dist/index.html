@@ -69,26 +69,16 @@
     <div class="dialog-info">
       <div id="detail-cat" class="eyebrow"></div>
       <h2 id="detail-name"></h2>
-      <label class="palette-control">Цветовая гамма
+      <label class="palette-control">Цвет
         <select id="palette">
-          <option value="orange">Directum</option>
-          <option value="esm">ESM</option>
-          <option value="hrpro">HR Pro</option>
-          <option value="projects">Projects</option>
-          <option value="omni">Omni</option>
-          <option value="targets">Targets</option>
-        </select>
-      </label>
-      <label id="line-color-control" class="palette-control" hidden>Цвет иконки
-        <select id="line-color">
           <option value="directum">Directum</option>
           <option value="esm">ESM</option>
           <option value="hrpro">HR Pro</option>
           <option value="projects">Projects</option>
           <option value="omni">Omni</option>
           <option value="targets">Targets</option>
-          <option value="black">Чёрный</option>
-          <option value="white">Белый</option>
+          <option id="black-color-option" value="black" hidden>Чёрный</option>
+          <option id="white-color-option" value="white" hidden>Белый</option>
         </select>
       </label>
       <fieldset class="variants"><legend>Вариант</legend><div id="variants"></div></fieldset>
