@@ -36,14 +36,13 @@ context.document.createElement=tag=>{
   let coloredBlob;
   context.fetch=async file=>({ok:true,text:async()=>'<svg fill="none"><path fill="white" stroke="black"/></svg>',blob:async()=>({})});
   context.URL.createObjectURL=blob=>{coloredBlob=blob;return 'blob:palette'};
-  get('#line-color').value='esm';
+  get('#palette').value='esm';
   assert.strictEqual(await vm.runInContext('paletteSource(currentVariant)',context),'blob:palette');
   const coloredSvg=await coloredBlob.text();
   assert(coloredSvg.includes('#2195BE'));
   assert(coloredSvg.includes('fill="none"'));
   assert(!coloredSvg.includes('stroke="black"'));
-  get('#palette').value='orange';
-  get('#line-color').value='black';
+  get('#palette').value='black';
   context.fetch=async file=>{requested=file;return {ok:true,text:async()=>'<svg stroke="black"/>',blob:async()=>({})}};
   context.URL.createObjectURL=()=> 'blob:test';
   get('#png-size').value='original';
