@@ -25,3 +25,9 @@ dialog{border:1px solid var(--border);border-radius:12px;padding:0;width:min(700
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
 .palette-control{display:grid;gap:6px;margin-top:14px;color:var(--muted-foreground);font-size:12px;font-weight:550}.palette-control select{height:38px;width:100%;min-width:0;border:1px solid var(--border);border-radius:8px;background:#fff;color:var(--foreground);padding:0 32px 0 10px;font-size:12px}.palette-control+.variants{margin-top:14px}
 @media(max-width:800px){.brand-copy{display:none}.product-nav{position:static;transform:none}}
+.dialog-info .detail-description{margin:0 0 16px;color:var(--muted-foreground);font-size:13px;line-height:1.5}
+.dialog-info .download-status{min-height:18px;margin:10px 0 0;color:var(--muted-foreground);font-size:12px}
+.search,.style-filter select{height:44px}
+.button{min-height:44px}
+.category{min-height:40px}
+@media(pointer:coarse){.category,.variant-choice,.dialog-close{min-height:44px}.variant-choice{height:44px}.dialog-close{width:44px;height:44px}}

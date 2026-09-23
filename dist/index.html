@@ -44,11 +44,11 @@
       <div class="toolbar">
         <label class="search">
           <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.35-4.35m2.35-5.15A7.5 7.5 0 1 1 4 11.5a7.5 7.5 0 0 1 15 0Z"/></svg>
-          <input id="search" type="search" placeholder="Поиск по названию" autocomplete="off">
+          <input id="search" type="search" placeholder="Название, категория или описание" aria-label="Поиск иконок" autocomplete="off">
           <kbd>⌘ K</kbd>
         </label>
         <label class="style-filter"><span>Вариант</span>
-          <select id="style-filter"><option value="">Все варианты</option><option>base</option><option>outline</option><option>3d</option><option>small</option><option>small-outline</option></select>
+          <select id="style-filter"><option value="">Все варианты</option><option>base</option><option>outline</option><option>small</option><option>small-outline</option><option>mono</option><option>3d</option></select>
         </label>
       </div>
 
@@ -69,6 +69,7 @@
     <div class="dialog-info">
       <div id="detail-cat" class="eyebrow"></div>
       <h2 id="detail-name"></h2>
+      <p id="detail-description" class="detail-description"></p>
       <label class="palette-control">Цвет
         <select id="palette">
           <option value="directum">Directum</option>
@@ -90,11 +91,11 @@
       <label class="size-control">Размер PNG
         <select id="png-size"><option value="original">Исходный размер</option><option value="56">56 px</option><option value="112">112 px</option><option value="256">256 px</option><option value="512">512 px</option></select>
       </label>
+      <p id="download-status" class="download-status" role="status" aria-live="polite"></p>
     </div>
   </dialog>
 
-  <script>window.ICON_DATA=[{"id":"5418:16984","name":"Mobile","cat":"Общие","file":"assets/icons/01-mobile.svg"},{"id":"7589:11171","name":"Кроссплатформенность","cat":"Общие","file":"assets/icons/02-кроссплатформенность.svg"},{"id":"5418:16793","name":"Нет бумаги","cat":"Общие","file":"assets/icons/03-нет-бумаги.svg"},{"id":"5655:11722","name":"Оборонно-промышленный комплекс","cat":"Отрасли","file":"assets/icons/04-оборонно-промышленный-комплекс.svg"},{"id":"5418:16953","name":"Events","cat":"Коммуникации","file":"assets/icons/04-events.svg"},{"id":"5418:16974","name":"News","cat":"Коммуникации","file":"assets/icons/05-news.svg"},{"id":"5418:17021","name":"Job","cat":"HR","file":"assets/icons/06-job.svg"},{"id":"5418:17130","name":"Учетная система","cat":"Системы","file":"assets/icons/07-учетная-система.svg"},{"id":"11271:10587","name":"Единая номенклатура дел","cat":"Документы","file":"assets/icons/07-единая-номенклатура-дел.svg"},{"id":"10369:10340","name":"Технологическая документация","cat":"Документы","file":"assets/icons/08-технологическая-документация.svg"},{"id":"4499:6898","name":"МЧД","cat":"Документы","file":"assets/icons/09-мчд.svg"},{"id":"7291:11156","name":"Ознакомление","cat":"Документы","file":"assets/icons/10-ознакомление.svg"},{"id":"1:10609","name":"Договор","cat":"Документы","file":"assets/icons/11-договор.svg"},{"id":"325:7291","name":"Документ со штрихкодом","cat":"Документы","file":"assets/icons/13-документ-со-штрихкодом.svg"},{"id":"2347:2572","name":"PDF","cat":"Форматы файлов","file":"assets/icons/12-pdf.svg"},{"id":"10416:10440","name":"XML","cat":"Форматы файлов","file":"assets/icons/16-xml.svg"}];</script>
-  <script src="variants.js"></script>
+  <script src="catalog.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
