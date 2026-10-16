@@ -1670,14 +1670,14 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/14479-14680.svg",
-          "sha256": "beb0f8cfaf12696ecac2636253209941b3b2323d2cc03f71d5c99af6a22f3819"
+          "sha256": "853985fb6437e677b5d8d358460b4cf770a23c0ca2a0d9fbfc63374a60dafb58"
         },
         "15013:15925": {
           "label": "mono",
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-15925.svg",
-          "sha256": "1985fb556a5f4273daa5e408a5ee6f2b9d168faec5662c8d91e270b143a74e45"
+          "sha256": "c4d8e33efff8df27680b058f165f3e3930eb547e04661dcce6efdd54a7f0a006"
         },
         "15013:15951": {
           "label": "3d",
@@ -4706,7 +4706,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-15958.svg",
-          "sha256": "efd988a56510a29849ec7bfa16daac4d182fa4353a2741c4ff172fedc7a096c8"
+          "sha256": "8265b68c28785b5b7938589eb34c40347d961b57ace59976e1bbf456219541b5"
         },
         "15013:15978": {
           "label": "3d",
@@ -7342,21 +7342,21 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/10196-10353.svg",
-          "sha256": "d5eb6a83710f9a27b371799bae57b8ef59674226b5d6696457caf181050b7c6e"
+          "sha256": "cb56976f219bf0c002a7ed94a486b7c76d5feecbeac5945a3f074e6da2a34c16"
         },
         "10196:10385": {
           "label": "small-outline",
           "width": 24,
           "height": 24,
           "file": "assets/variants/10196-10385.svg",
-          "sha256": "2f3c908d1dfce051f2f84c899f699344657f270be82c32edb373d89e0cf8333c"
+          "sha256": "c600e7c831e424b3b5f7585652042f0c0d26827ded47789ff7d6f6efa1e7c9ae"
         },
         "15013:15573": {
           "label": "mono",
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-15573.svg",
-          "sha256": "27ab763a9201ca4730a578a93aa5b53db1b6b4a65c4253bead699144db98d75f"
+          "sha256": "444444f6536835aa30385e5896a8606de927ff9876497e55b5565386d59cb831"
         },
         "15013:15605": {
           "label": "3d",
@@ -9593,7 +9593,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-15988.svg",
-          "sha256": "67b6db39ab8b0db4ed055d4084a63f5c2b70234ffb60135acdbc656dff470b98"
+          "sha256": "d97ed2468b4c51a2a2adc6c18b36117d6f246124914d01fb239bb5adb0ddf020"
         },
         "15013:16004": {
           "label": "3d",
@@ -10795,7 +10795,7 @@
       "title": "supply&development",
       "category": "Без категории",
       "keywords": [
-        "supply&amp;development"
+        "supply&amp;amp;development"
       ],
       "variants": {
         "5418:17234": {
@@ -10966,5 +10966,5 @@
       }
     }
   },
-  "catalogSha256": "cab16e5e090f05c84cc5f755d67a3e5b3f9d7e6a95d63bc8ac91cea74a28982d"
+  "catalogSha256": "2aeecb3850dab2f02dc63a88594158c4433b9e3996140af322db3c58e0573323"
 }
