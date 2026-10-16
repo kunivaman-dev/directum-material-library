@@ -55,7 +55,7 @@ export default async function Home({ searchParams }: { searchParams: Promise<Sea
 
         <section className={styles.hero} aria-labelledby="home-title">
           <h1 id="home-title" className={styles.srOnly}>DIRECTUM DESIGN</h1>
-          <p className={styles.intro}><strong>Дизайн-материалы Directum</strong><br />Иконки, логотипы и правила бренда —<br />в одном месте.</p>
+          <p className={styles.intro}><strong>Дизайн-материалы Directum</strong><br />Иконки, логотипы и правила бренда<br />в одном месте.</p>
 
           <nav className={styles.sectionLinks} aria-label="Материалы Directum">
             <a href="/icons.html"><span className={styles.linkIndex}>01</span><span>Иконки</span><ArrowIcon /></a>
