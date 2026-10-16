@@ -1,16 +1,32 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M12 11L12 13" stroke="black"/>
-<mask id="path-2-inside-1_10196_10385" fill="white">
-<rect x="2" y="12.5" width="20" height="8" rx="0.869555"/>
-</mask>
-<rect x="2" y="12.5" width="20" height="8" rx="0.869555" stroke="black" stroke-width="2" mask="url(#path-2-inside-1_10196_10385)"/>
-<rect x="5" y="15" width="3" height="3" rx="1.5" fill="black"/>
-<line x1="10" y1="16.4922" x2="19" y2="16.4922" stroke="black"/>
-<mask id="path-5-inside-2_10196_10385" fill="white">
-<rect x="2" y="3.5" width="20" height="8" rx="0.869555"/>
-</mask>
-<rect x="2" y="3.5" width="20" height="8" rx="0.869555" stroke="black" stroke-width="2" mask="url(#path-5-inside-2_10196_10385)"/>
-<rect x="5" y="6" width="3" height="3" rx="1.5" fill="black"/>
-<line x1="10" y1="7.49219" x2="19" y2="7.49219" stroke="black"/>
+<rect width="24" height="24" fill="#BCBCBC"/>
+<g id="&#208;&#152;&#208;&#186;&#208;&#190;&#208;&#189;&#208;&#186;&#208;&#184;">
+<rect width="1380" height="7171" transform="translate(-546 -4827)" fill="white"/>
+<g id="&#209;&#129;&#208;&#181;&#209;&#130;&#208;&#186;&#208;&#176;">
+<g id="&#208;&#161;&#208;&#181;&#209;&#128;&#208;&#178;&#208;&#181;&#209;&#128;">
+<rect width="290" height="112" transform="translate(-166 -20)" fill="#EFEFEF"/>
+<g id="&#208;&#161;&#208;&#181;&#209;&#128;&#208;&#178;&#208;&#181;&#209;&#128;_2">
+<g id="&#208;&#146;&#208;&#184;&#208;&#180;=small-outline">
+<g id="new">
+<path id="Line 95" d="M12 11L12 13" stroke="black"/>
+<g id="Group 277133806">
+<path id="Rectangle 127" d="M4 13H20C20.8284 13 21.5 13.6716 21.5 14.5V18.5C21.5 19.3284 20.8284 20 20 20H4C3.17157 20 2.5 19.3284 2.5 18.5V14.5C2.5 13.6716 3.17157 13 4 13Z" stroke="black"/>
+<g id="Group 171">
+<rect id="Rectangle 129" x="5" y="15" width="3" height="3" rx="1.5" fill="black"/>
+<line id="Line 94" x1="10" y1="16.4922" x2="19" y2="16.4922" stroke="black"/>
+</g>
+</g>
+<g id="Group 277133807">
+<path id="Rectangle 127_2" d="M4 4H20C20.8284 4 21.5 4.67157 21.5 5.5V9.5C21.5 10.3284 20.8284 11 20 11H4C3.17157 11 2.5 10.3284 2.5 9.5V5.5C2.5 4.67157 3.17157 4 4 4Z" stroke="black"/>
+<g id="Group 171_2">
+<rect id="Rectangle 129_2" x="5" y="6" width="3" height="3" rx="1.5" fill="black"/>
+<line id="Line 94_2" x1="10" y1="7.49219" x2="19" y2="7.49219" stroke="black"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
 </svg>
-
