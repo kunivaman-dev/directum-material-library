@@ -1,11 +1,8 @@
-name: Deploy Directum library to GitHub Pages
+name: Deploy the Directum library to GitHub Pages
 
 on:
   push:
     branches: [main]
-    paths:
-      - "dist/**"
-      - ".github/workflows/pages.yml"
   workflow_dispatch:
 
 permissions:
@@ -25,18 +22,53 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout the canonical Site source
         uses: actions/checkout@v4
+
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 11.25.0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Validate catalogs
+        run: |
+          node test-variants.cjs
+          node test-logos.cjs
+          python3 scripts/catalog_guard.py check
+
+      - name: Build the canonical Site source
+        run: pnpm build
+
+      - name: Render the home page
+        run: |
+          pnpm start > /tmp/directum-site.log 2>&1 &
+          worker_pid=$!
+          trap 'kill "$worker_pid" || true' EXIT
+          for attempt in {1..30}; do
+            if curl --fail --silent --show-error http://127.0.0.1:8787/ --output /tmp/directum-index.html; then
+              break
+            fi
+            sleep 1
+          done
+          test -s /tmp/directum-index.html || { cat /tmp/directum-site.log; exit 1; }
+          node scripts/prepare-github-pages.mjs --home /tmp/directum-index.html --out .github-pages
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
-        with:
-          enablement: true
 
-      - name: Upload static site
+      - name: Upload the GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: .github-pages
 
       - name: Deploy
         id: deployment

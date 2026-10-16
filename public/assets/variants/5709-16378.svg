@@ -1,0 +1,16 @@
+<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 22H13C13.5523 22 14 22.4477 14 23V53H4C3.44772 53 3 52.5523 3 52V23C3 22.4477 3.44772 22 4 22Z" stroke="black" stroke-width="2"/>
+<rect x="17" y="3" width="13" height="6" rx="1" fill="black"/>
+<rect x="33" y="13" width="10" height="8" rx="1" stroke="black" stroke-width="2"/>
+<rect x="32.5" y="17.5" width="11" height="3" rx="1.5" stroke="black"/>
+<path d="M47 35V22C47 21.4477 46.5523 21 46 21H35C33.8954 21 33 21.8954 33 23V53H39.2651" stroke="black" stroke-width="2"/>
+<rect x="14" y="8" width="19" height="45" rx="1" stroke="black" stroke-width="2"/>
+<path d="M39 7.5V12.45" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<path d="M5 17V21.95" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<path d="M46 27H33" stroke="black" stroke-width="2"/>
+<path d="M18.5 8V53" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21.5 8V53" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M11.6914 42C11.9674 42.0001 12.1914 42.2239 12.1914 42.5C12.1914 42.7761 11.9674 42.9999 11.6914 43H5.43848C5.16233 43 4.93848 42.7761 4.93848 42.5C4.93848 42.2239 5.16233 42 5.43848 42H11.6914ZM11.6914 38C11.9674 38.0001 12.1914 38.2239 12.1914 38.5C12.1914 38.7761 11.9674 38.9999 11.6914 39H5.43848C5.16233 39 4.93848 38.7761 4.93848 38.5C4.93848 38.2239 5.16233 38 5.43848 38H11.6914ZM11.6914 34C11.9674 34.0001 12.1914 34.2239 12.1914 34.5C12.1914 34.7761 11.9674 34.9999 11.6914 35H5.43848C5.16233 35 4.93848 34.7761 4.93848 34.5C4.93848 34.2239 5.16233 34 5.43848 34H11.6914ZM11.6914 30C11.9674 30.0001 12.1914 30.2239 12.1914 30.5C12.1914 30.7761 11.9674 30.9999 11.6914 31H5.43848C5.16233 31 4.93848 30.7761 4.93848 30.5C4.93848 30.2239 5.16233 30 5.43848 30H11.6914ZM11.6914 26C11.9674 26.0001 12.1914 26.2239 12.1914 26.5C12.1914 26.7761 11.9674 26.9999 11.6914 27H5.43848C5.16233 27 4.93848 26.7761 4.93848 26.5C4.93848 26.2239 5.16233 26 5.43848 26H11.6914Z" fill="black"/>
+<circle cx="45" cy="45" r="10" stroke="black" stroke-width="2"/>
+<path d="M41.0003 44.5L44.25 47.7497L50.75 41.2497" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

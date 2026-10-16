@@ -1,0 +1,37 @@
+{
+  "fileKey": "nCpoXr1g7y4CP4BNBCIas8",
+  "pageId": "0:1",
+  "pageName": "иконки",
+  "variantProperty": "Вид",
+  "variantOrder": [
+    "base",
+    "outline",
+    "small",
+    "small-outline",
+    "mono",
+    "3d"
+  ],
+  "componentSetRule": "A component set is an icon when its description contains a keywords: field and its Вид variants match variantOrder.",
+  "standaloneRule": "A standalone component is an icon when its description contains a keywords: field and it is not a child of a component set.",
+  "metadata": {
+    "categoryField": "category:",
+    "keywordsField": "keywords:",
+    "ignoreUnlabelledDescriptionLines": true,
+    "fallbackCategory": "Без категории"
+  },
+  "categories": [
+    "Без категории",
+    "Бизнес-процессы",
+    "Документы",
+    "Интерфейс",
+    "Коммуникации",
+    "Отрасли",
+    "Пользователи",
+    "Системы"
+  ],
+  "site": {
+    "url": "https://directum-icon-library.kunivaman.chatgpt.site/",
+    "projectId": "appgprj_6aad2a6856108191a51a414334e71e08",
+    "dist": "public"
+  }
+}

@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,interactive-widget=resizes-content">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#ffffff">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Фирменные иконки Directum: поиск, просмотр и скачивание в SVG и PNG.">
+  <title>Иконки Directum</title>
+  <link rel="icon" type="image/svg+xml" href="assets/directum-site-mark.svg">
+  <link rel="stylesheet" href="styles.css?v=27">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="Directum Design System — главная">
+      <span class="brand-mark"><img src="assets/directum-site-mark.svg" alt=""></span>
+      <span class="brand-copy"><b>Directum</b><small>Icon library</small></span>
+    </a>
+    <nav class="product-nav" aria-label="Разделы дизайн-системы">
+      <a class="active" href="icons.html" aria-current="page">Иконки</a>
+      <a href="logos.html">Логотипы</a>
+      <a href="logobook.html">Логобук</a>
+    </nav>
+    <a class="figma-link" href="https://www.figma.com/design/nCpoXr1g7y4CP4BNBCIas8/" target="_blank" rel="noreferrer"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M14 5h5v5M10 14 19 5M19 14v5H5V5h5"/></svg><span>Открыть в Figma</span></a>
+  </header>
+
+  <main class="shell">
+    <aside class="sidebar">
+      <div class="side-title">Навигация</div>
+      <nav id="categories" aria-label="Категории иконок"></nav>
+      <div class="side-note">
+        <span class="note-dot"></span>
+        <span>Исходники из фирменной библиотеки Figma</span>
+      </div>
+    </aside>
+
+    <section class="content">
+      <div class="catalog-head">
+        <div>
+          <div class="eyebrow">Directum Design System</div>
+          <h1>Фирменные иконки</h1>
+          <p class="lead">Выберите начертание и скачайте иконку в SVG или PNG.</p>
+        </div>
+        <div class="counter"><strong id="visible-count">0</strong><span>иконок</span></div>
+      </div>
+
+      <div class="catalog-controls">
+        <div class="toolbar">
+          <label class="search">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.35-4.35m2.35-5.15A7.5 7.5 0 1 1 4 11.5a7.5 7.5 0 0 1 15 0Z"/></svg>
+            <input id="search" type="search" placeholder="Название, категория или ключевое слово" aria-label="Поиск иконок" autocomplete="off" enterkeyhint="search">
+            <kbd>⌘ K</kbd>
+          </label>
+          <label class="style-filter"><span>Вариант</span>
+            <select id="style-filter"><option value="">Все варианты</option><option value="base">Основной</option><option value="outline">Контурный</option><option value="small">Малый</option><option value="small-outline">Малый контурный</option><option value="mono">Монохромный</option><option value="3d">Объёмный</option></select>
+          </label>
+        </div>
+        <div id="active-filter" class="active-filter" role="status" aria-live="polite">Все иконки</div>
+      </div>
+      <div id="grid" class="icon-grid" aria-live="polite"></div>
+      <div id="empty" class="empty" hidden>
+        <div class="empty-icon">⌕</div>
+        <h2>Ничего не найдено</h2>
+        <p>Попробуйте другой запрос или сбросьте категорию и вариант.</p>
+        <button id="reset" type="button">Сбросить фильтры</button>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="detail" aria-labelledby="detail-name">
+    <button class="dialog-close" aria-label="Закрыть" type="button">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+    <div class="dialog-preview"><img id="detail-img" alt=""></div>
+    <div class="dialog-info">
+      <div id="detail-cat" class="eyebrow"></div>
+      <h2 id="detail-name"></h2>
+      <div class="keyword-block">
+        <div class="keyword-label">Ключевые слова</div>
+        <div id="detail-keywords" class="detail-keywords"></div>
+      </div>
+      <fieldset class="variants"><legend>Вариант</legend><div id="variants"></div></fieldset>
+      <p id="variant-size" aria-live="polite"></p>
+      <label class="palette-control">Цвет
+        <select id="palette">
+          <option value="directum">Directum</option>
+          <option value="esm">ESM</option>
+          <option value="hrpro">HR Pro</option>
+          <option value="projects">Projects</option>
+          <option value="omni">Omni</option>
+          <option value="targets">Targets</option>
+          <option id="black-color-option" value="black" hidden>Чёрный</option>
+          <option id="white-color-option" value="white" hidden>Белый</option>
+        </select>
+      </label>
+      <label class="size-control">Размер PNG
+        <select id="png-size"><option value="original">Исходный размер</option><option value="56">56 px</option><option value="112">112 px</option><option value="256">256 px</option><option value="512">512 px</option></select>
+      </label>
+      <div class="download-row">
+        <button id="download-svg" class="button primary" type="button">Скачать SVG</button>
+        <button id="download-png" class="button secondary" type="button">Скачать PNG</button>
+      </div>
+      <div class="copy-row" role="group" aria-label="Дополнительные действия">
+        <button id="copy-svg" class="icon-button" type="button" aria-label="Копировать SVG" title="Копировать SVG">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M15 9V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h3"/></svg>
+          <span class="action-label">Копировать SVG</span>
+        </button>
+        <button id="copy-link" class="icon-button" type="button" aria-label="Копировать ссылку" title="Копировать ссылку">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.07.07l2-2a5 5 0 0 0-7.07-7.07l-1.15 1.15"/><path d="M14 11a5 5 0 0 0-7.07-.07l-2 2A5 5 0 0 0 12 20l1.15-1.15"/></svg>
+          <span class="action-label">Копировать ссылку</span>
+        </button>
+      </div>
+      <p id="download-status" class="download-status" role="status" aria-live="polite"></p>
+    </div>
+  </dialog>
+
+  <script src="catalog.js"></script>
+  <script src="app.js?v=21"></script>
+  <script src="analytics.js?v=1"></script>
+</body>
+</html>
