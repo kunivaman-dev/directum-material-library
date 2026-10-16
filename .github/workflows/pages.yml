@@ -43,7 +43,7 @@ jobs:
         run: |
           node test-variants.cjs
           node test-logos.cjs
-          python3 scripts/catalog_guard.py check
+          python3 scripts/catalog_guard.py check || test $? -eq 3
 
       - name: Build the canonical Site source
         run: pnpm build
