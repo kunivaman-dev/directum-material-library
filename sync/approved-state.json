@@ -8302,7 +8302,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-16463.svg",
-          "sha256": "a8f7afa06270dcde0ccbbd736f4576cf249da1c23900bc4075fc453105e94da0"
+          "sha256": "f54186cfe10d2c30091235a04225535c39a0f2a72c1beed7e2483d156ce77a98"
         },
         "15013:16471": {
           "label": "mono",
@@ -10966,5 +10966,5 @@
       }
     }
   },
-  "catalogSha256": "2aeecb3850dab2f02dc63a88594158c4433b9e3996140af322db3c58e0573323"
+  "catalogSha256": "c607a03b4661a18a4e454c1fcef92e7c65d2e1a4a5ba6805910dc07d334e5a5d"
 }
