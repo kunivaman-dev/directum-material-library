@@ -37,6 +37,7 @@
 ```bash
 node test-variants.cjs
 node test-logos.cjs
+node test-analytics.cjs
 python3 scripts/catalog_guard.py check
 ```
 
@@ -46,6 +47,9 @@ python3 scripts/catalog_guard.py check
 
 `test-logos.cjs` проверяет 55 вариантов девяти брендов, уникальность записей,
 ссылки на исходные узлы Figma и валидность каждого SVG.
+
+`test-analytics.cjs` проверяет, что обе публикации отправляют события в общий
+Sites API, а API принимает CORS-запросы только с двух публичных доменов.
 
 `catalog_guard.py` дополнительно сверяет каталог с последним одобренным
 состоянием. Он отдельно показывает добавленные и удалённые иконки, изменения

@@ -1,5 +1,6 @@
 (()=>{
-  const endpoint='/api/events';
+  const analyticsOrigin='https://directum-icon-library.kunivaman.chatgpt.site';
+  const endpoint=location.hostname==='directum-design.desserg.ru'?`${analyticsOrigin}/api/events`:'/api/events';
   const path=location.pathname;
   const section=path.includes('logos')?'logos':path.includes('logobook')?'logobook':'icons';
   let searchTimer=0,lastSearch='';
