@@ -58,8 +58,10 @@ assert(Number(get('#visible-count').textContent)>=1,'Figma keywords must be sear
 vm.runInContext("openIcon(icons.find(x=>x.variants.some(v=>v.label==='mono')))",context);
 assert(get('#detail').open);
 assert(get('#detail-keywords').innerHTML.includes('<span>'),'icon preview must show keyword chips');
+assert(get('#palette-swatches').innerHTML.includes('data-tooltip="Directum"'),'palette must render square color swatches with tooltips');
 vm.runInContext("setVariant(current.variants.find(v=>v.label==='mono'))",context);
 assert.strictEqual(get('#palette').value,'black','mono preview must default to black');
+assert(get('#palette-swatches').innerHTML.includes('data-tooltip="Белый"'),'single-color variants must offer black and white swatches');
 assert(get('#variants').innerHTML.includes('Монохромный'),'variant choices must use Russian labels');
 get('#copy-link').handlers.click();
 assert.strictEqual(

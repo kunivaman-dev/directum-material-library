@@ -5,6 +5,7 @@ const grid=document.querySelector('#grid');
 const search=document.querySelector('#search');
 const styleFilter=document.querySelector('#style-filter');
 const paletteSelect=document.querySelector('#palette');
+const paletteSwatches=document.querySelector('#palette-swatches');
 const extendedColorOptions=[document.querySelector('#black-color-option'),document.querySelector('#white-color-option')];
 const dialogPreview=document.querySelector('.dialog-preview');
 const nav=document.querySelector('#categories');
@@ -39,6 +40,16 @@ const availableCategories=new Set(icons.map(x=>x.cat));
 const categories=preferredCategories.filter(x=>x==='Все'||availableCategories.has(x))
   .concat([...availableCategories].filter(x=>!preferredCategories.includes(x)).sort((a,b)=>a.localeCompare(b,'ru')));
 const plural=n=>n%10===1&&n%100!==11?'иконка':n%10>=2&&n%10<=4&&(n%100<10||n%100>=20)?'иконки':'иконок';
+
+function renderPaletteSwatches(singleColor=Boolean(currentVariant&&singleColorVariants.has(currentVariant.label))){
+  paletteSwatches.innerHTML=Object.entries(lineColors)
+    .filter(([key])=>singleColor||!['black','white'].includes(key))
+    .map(([key,color])=>{
+      const fade=palettes[key]?.fade||color.value;
+      const active=paletteSelect.value===key;
+      return '<button class="palette-swatch '+(active?'active':'')+'" type="button" data-palette="'+key+'" data-tooltip="'+escapeHtml(color.name)+'" aria-label="'+escapeHtml(color.name)+'" aria-pressed="'+active+'" style="--swatch:'+color.value+';--swatch-fade:'+fade+'"><span aria-hidden="true"></span></button>';
+    }).join('');
+}
 
 function syncUrl(includeIcon=Boolean(current&&dialog.open)){
   const params=new URLSearchParams();
@@ -107,6 +118,7 @@ function setVariant(variant,updateUrl=true){
   extendedColorOptions.forEach(option=>{option.hidden=!singleColor;option.disabled=!singleColor});
   if(variant.label==='mono'&&paletteSelect.value!=='black'&&paletteSelect.value!=='white')paletteSelect.value='black';
   if(!singleColor&&(paletteSelect.value==='black'||paletteSelect.value==='white'))paletteSelect.value='directum';
+  renderPaletteSwatches(singleColor);
   dialogPreview.classList.toggle('white-icon',singleColor&&paletteSelect.value==='white');
   const img=document.querySelector('#detail-img');
   img.src=variant.file;
@@ -231,6 +243,15 @@ grid.addEventListener('click',e=>{const b=e.target.closest('[data-id]');if(b)ope
 search.addEventListener('input',()=>{render();syncUrl(false)});
 styleFilter.addEventListener('change',()=>{render();syncUrl(false)});
 paletteSelect.addEventListener('change',()=>{status.textContent='';updatePreview();syncUrl(true)});
+paletteSwatches.addEventListener('click',e=>{
+  const swatch=e.target.closest('[data-palette]');
+  if(!swatch||swatch.dataset.palette===paletteSelect.value)return;
+  paletteSelect.value=swatch.dataset.palette;
+  renderPaletteSwatches();
+  status.textContent='';
+  updatePreview();
+  syncUrl(true);
+});
 document.addEventListener('keydown',e=>{if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'){e.preventDefault();search.focus()}if(e.key==='Escape'&&dialog.open)dialog.close()});
 document.querySelector('.dialog-close').addEventListener('click',()=>dialog.close());
 dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close()});

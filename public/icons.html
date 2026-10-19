@@ -82,8 +82,10 @@
       </div>
       <fieldset class="variants"><legend>Вариант</legend><div id="variants"></div></fieldset>
       <p id="variant-size" aria-live="polite"></p>
-      <label class="palette-control">Цвет
-        <select id="palette">
+      <fieldset class="palette-control">
+        <legend>Цвет</legend>
+        <div id="palette-swatches" class="palette-swatches" role="group" aria-label="Цвет иконки"></div>
+        <select id="palette" class="palette-select-native" aria-hidden="true" tabindex="-1">
           <option value="directum">Directum</option>
           <option value="esm">ESM</option>
           <option value="hrpro">HR Pro</option>
@@ -93,7 +95,7 @@
           <option id="black-color-option" value="black" hidden>Чёрный</option>
           <option id="white-color-option" value="white" hidden>Белый</option>
         </select>
-      </label>
+      </fieldset>
       <label class="size-control">Размер PNG
         <select id="png-size"><option value="original">Исходный размер</option><option value="56">56 px</option><option value="112">112 px</option><option value="256">256 px</option><option value="512">512 px</option></select>
       </label>
