@@ -1,10 +1,10 @@
 {
   "version": 1,
   "summary": {
-    "icons": 240,
+    "icons": 239,
     "families": 189,
-    "standalone": 51,
-    "variants": 1185,
+    "standalone": 50,
+    "variants": 1184,
     "mono": 189
   },
   "icons": {
@@ -1670,14 +1670,14 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/14479-14680.svg",
-          "sha256": "853985fb6437e677b5d8d358460b4cf770a23c0ca2a0d9fbfc63374a60dafb58"
+          "sha256": "4540993de7808dd28e57f936bc7beae28c4281ab580da202c4434e3ef4f0d958"
         },
         "15013:15925": {
           "label": "mono",
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-15925.svg",
-          "sha256": "c4d8e33efff8df27680b058f165f3e3930eb547e04661dcce6efdd54a7f0a006"
+          "sha256": "fb69759bc288d3c789861067744ae77a5b3ef77b2d809bc0c92b42b36bbd80e3"
         },
         "15013:15951": {
           "label": "3d",
@@ -1837,7 +1837,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-16046.svg",
-          "sha256": "b33fd2a4b50593925ee217f2e910f578fbbf14c808c6708fac60e22681e66ad7"
+          "sha256": "0b14d71e74afae471fbc72c1ac8701e819600a4e573a1e6a75a638868d3c4679"
         },
         "15013:16060": {
           "label": "3d",
@@ -4706,7 +4706,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-15958.svg",
-          "sha256": "8265b68c28785b5b7938589eb34c40347d961b57ace59976e1bbf456219541b5"
+          "sha256": "3896f1c818aed7975e8966761215744506298e124ec4b6d4fe888a7f67f4fc9a"
         },
         "15013:15978": {
           "label": "3d",
@@ -5629,7 +5629,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-14857.svg",
-          "sha256": "2b781b2ce2e52466b8067fc63ab274d2198cae01499536e6f825aa0b37c554d3"
+          "sha256": "7de6cdd7903d26e5be78c741bf309535942566212f28e60c3bf3e3760e84bcef"
         },
         "15013:14883": {
           "label": "3d",
@@ -7342,21 +7342,21 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/10196-10353.svg",
-          "sha256": "cb56976f219bf0c002a7ed94a486b7c76d5feecbeac5945a3f074e6da2a34c16"
+          "sha256": "0e20bcbe8cec293257cbbd32ce8ede927348153a8fe44e282ab79ffd4a19bc0b"
         },
         "10196:10385": {
           "label": "small-outline",
           "width": 24,
           "height": 24,
           "file": "assets/variants/10196-10385.svg",
-          "sha256": "c600e7c831e424b3b5f7585652042f0c0d26827ded47789ff7d6f6efa1e7c9ae"
+          "sha256": "33a453ac4e9570fef3a836b45d7f4a9a358b673d0bc4d34bc2920921debca851"
         },
         "15013:15573": {
           "label": "mono",
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-15573.svg",
-          "sha256": "444444f6536835aa30385e5896a8606de927ff9876497e55b5565386d59cb831"
+          "sha256": "5c02f7d32c2ab59c80e9936aba62170f4bd0a894a361bf5e73e94ab718b1b22b"
         },
         "15013:15605": {
           "label": "3d",
@@ -8194,21 +8194,6 @@
           "height": 56,
           "file": "assets/variants/15013-13713.svg",
           "sha256": "d3cba5410b6793c6e36434f5fbcba57caf2b55e693980acbe625c2227a9f9aa2"
-        }
-      }
-    },
-    "11535:10742": {
-      "name": "Стилизация",
-      "title": "Стилизация",
-      "category": "Без категории",
-      "keywords": [],
-      "variants": {
-        "11535:10742": {
-          "label": "base",
-          "width": 56,
-          "height": 56,
-          "file": "assets/variants/11535-10742.svg",
-          "sha256": "21d22a15188422ef527d66d4cbc505c0218da4bf90e4eae8da72a3013ee34610"
         }
       }
     },
@@ -9593,7 +9578,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-15988.svg",
-          "sha256": "d97ed2468b4c51a2a2adc6c18b36117d6f246124914d01fb239bb5adb0ddf020"
+          "sha256": "0497db657ae6a9309de9393c74d31492d8789ebc1ce025d02386e5328154c1f3"
         },
         "15013:16004": {
           "label": "3d",
@@ -10961,10 +10946,10 @@
           "width": 56,
           "height": 56,
           "file": "assets/variants/15714-8953.svg",
-          "sha256": "db0c83df8b67ccf068a8c97e35fdbac88f8dff719bb06a5925c49b6ece56d887"
+          "sha256": "8cb3fe637629f4570561f137249dca9fd67ff67d1153d65ad6d7b4e17308aaac"
         }
       }
     }
   },
-  "catalogSha256": "c607a03b4661a18a4e454c1fcef92e7c65d2e1a4a5ba6805910dc07d334e5a5d"
+  "catalogSha256": "3183850587e11a03c7d136864c294368ea67c869f796357d4e5b76771768f8e0"
 }
