@@ -1,22 +1,7 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="24" height="24" fill="#BCBCBC"/>
-<g id="&#208;&#152;&#208;&#186;&#208;&#190;&#208;&#189;&#208;&#186;&#208;&#184;">
-<rect width="1380" height="7171" transform="translate(-546 -5071)" fill="white"/>
-<g id="&#209;&#129;&#208;&#181;&#209;&#130;&#208;&#186;&#208;&#176;">
-<g id="Omni">
-<rect x="-166" y="-20" width="290" height="112" rx="1" fill="#EFEFEF"/>
-<g id="&#208;&#147;&#209;&#128;&#208;&#176;&#209;&#132;&#208;&#184;&#208;&#186; &#208;&#178;&#208;&#178;&#208;&#181;&#209;&#128;&#209;&#133;">
-<g id="&#208;&#146;&#208;&#184;&#208;&#180;=small-outline">
-<path id="Subtract" d="M21.5 21.5H2V22.5H22.5V2H21.5V21.5Z" fill="black"/>
-<g id="new">
-<rect id="Rectangle" width="3" height="11" rx="1" transform="matrix(-1 0 0 1 17 10)" fill="black"/>
-<rect id="Rectangle_2" width="3" height="6" rx="1" transform="matrix(-1 0 0 1 21 15)" fill="black"/>
-<rect id="Rectangle_3" width="3" height="6" rx="1" transform="matrix(-1 0 0 1 13 15)" fill="black"/>
-</g>
-<path id="Vector 319" d="M14.9998 2C14.6665 5.59487 11.5998 13.4277 1.99979 16M12.9998 4L14.9998 2L16.2598 4.41537" stroke="black" stroke-linecap="round"/>
-</g>
-</g>
-</g>
-</g>
-</g>
+<path d="M21.5 21.5H2V22.5H22.5V2H21.5V21.5Z" fill="black"/>
+<rect width="3" height="11" rx="1" transform="matrix(-1 0 0 1 17 10)" fill="black"/>
+<rect width="3" height="6" rx="1" transform="matrix(-1 0 0 1 21 15)" fill="black"/>
+<rect width="3" height="6" rx="1" transform="matrix(-1 0 0 1 13 15)" fill="black"/>
+<path d="M14.9998 2C14.6665 5.59487 11.5998 13.4277 1.99979 16M12.9998 4L14.9998 2L16.2598 4.41537" stroke="black" stroke-linecap="round"/>
 </svg>
