@@ -1,21 +1,40 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M5 2.5H18C18.8284 2.5 19.5 3.17157 19.5 4V21C19.5 21.8284 18.8284 22.5 18 22.5H5C4.17157 22.5 3.5 21.8284 3.5 21V4C3.5 3.17157 4.17157 2.5 5 2.5Z" fill="white" stroke="#1C2150"/>
-<rect x="6.5" y="0.5" width="2" height="3" rx="0.785714" fill="white" stroke="#1C2150"/>
-<rect x="14.5" y="0.5" width="2" height="3" rx="0.785714" fill="white" stroke="#1C2150"/>
-<mask id="path-4-inside-1_9954_10346" fill="white">
+<rect width="24" height="24" fill="#BCBCBC"/>
+<g id="&#208;&#152;&#208;&#186;&#208;&#190;&#208;&#189;&#208;&#186;&#208;&#184;">
+<rect width="1380" height="7171" transform="translate(-224 -5639)" fill="white"/>
+<g id="&#208;&#151;&#208;&#176;&#208;&#180;&#208;&#176;&#209;&#135;&#208;&#176; &#208;&#191;&#208;&#190; &#208;&#177;&#208;&#184;&#208;&#183;&#208;&#189;&#208;&#181;&#209;&#129;-&#208;&#191;&#209;&#128;&#208;&#190;&#209;&#134;&#208;&#181;&#209;&#129;&#209;&#129;&#209;&#131;">
+<rect width="274" height="112" transform="translate(-132 -20)" fill="#CBCBCB"/>
+<g id="&#208;&#151;&#208;&#176;&#208;&#180;&#208;&#176;&#209;&#135;&#208;&#176; &#208;&#191;&#208;&#190; &#208;&#177;&#208;&#184;&#208;&#183;&#208;&#189;&#208;&#181;&#209;&#129;-&#208;&#191;&#209;&#128;&#208;&#190;&#209;&#134;&#208;&#181;&#209;&#129;&#209;&#129;&#209;&#131;_2">
+<g id="&#208;&#146;&#208;&#184;&#208;&#180;=small-outline">
+<path id="Vector 285" d="M5 2.5H18C18.8284 2.5 19.5 3.17157 19.5 4V21C19.5 21.8284 18.8284 22.5 18 22.5H5C4.17157 22.5 3.5 21.8284 3.5 21V4C3.5 3.17157 4.17157 2.5 5 2.5Z" fill="white" stroke="#1C2150"/>
+<rect id="Rectangle 384" x="6.5" y="0.5" width="2" height="3" rx="0.785714" fill="white" stroke="#1C2150"/>
+<rect id="Rectangle 385" x="14.5" y="0.5" width="2" height="3" rx="0.785714" fill="white" stroke="#1C2150"/>
+<g id="Group 277133782">
+<g id="Rectangle">
+<mask id="path-5-inside-1_0_1" fill="white">
 <rect x="17.3569" y="15.4287" width="5.57143" height="5.57143" rx="0.928571"/>
 </mask>
-<rect x="17.3569" y="15.4287" width="5.57143" height="5.57143" rx="0.928571" fill="white" stroke="#1C2150" stroke-width="2" mask="url(#path-4-inside-1_9954_10346)"/>
-<mask id="path-5-inside-2_9954_10346" fill="white">
+<rect x="17.3569" y="15.4287" width="5.57143" height="5.57143" rx="0.928571" fill="white" stroke="#1C2150" stroke-width="2" mask="url(#path-5-inside-1_0_1)"/>
+</g>
+<g id="Rectangle_2">
+<mask id="path-6-inside-2_0_1" fill="white">
 <rect x="9" y="15.4287" width="5.57143" height="5.57143" rx="0.928571"/>
 </mask>
-<rect x="9" y="15.4287" width="5.57143" height="5.57143" rx="0.928571" fill="white" stroke="#1C2150" stroke-width="2" mask="url(#path-5-inside-2_9954_10346)"/>
-<mask id="path-6-inside-3_9954_10346" fill="white">
+<rect x="9" y="15.4287" width="5.57143" height="5.57143" rx="0.928571" fill="white" stroke="#1C2150" stroke-width="2" mask="url(#path-6-inside-2_0_1)"/>
+</g>
+<g id="Rectangle_3">
+<mask id="path-7-inside-3_0_1" fill="white">
 <rect x="13.1787" y="8" width="5.57143" height="5.57143" rx="0.928571"/>
 </mask>
-<rect x="13.1787" y="8" width="5.57143" height="5.57143" rx="0.928571" fill="white" stroke="#1C2150" stroke-width="2" mask="url(#path-6-inside-3_9954_10346)"/>
-<path d="M13.1782 11.25H12.2497C11.9932 11.25 11.7854 11.4579 11.7854 11.7143V14.9643" stroke="#1C2150"/>
-<path d="M11.9707 14.5359L11.7852 14.7214L11.5996 14.5359H11.9707Z" stroke="#1C2150"/>
-<path d="M20.7925 14.5359L20.6069 14.7214L20.4214 14.5359H20.7925Z" stroke="#1C2150"/>
-<path d="M18.75 11.25H20.1429C20.3993 11.25 20.6071 11.4579 20.6071 11.7143V14.9643" stroke="#1C2150"/>
+<rect x="13.1787" y="8" width="5.57143" height="5.57143" rx="0.928571" fill="white" stroke="#1C2150" stroke-width="2" mask="url(#path-7-inside-3_0_1)"/>
+</g>
+<path id="Vector 3.1" d="M13.1782 11.25H12.2497C11.9932 11.25 11.7854 11.4579 11.7854 11.7143V14.9643" stroke="#1C2150"/>
+<path id="Vector 4" d="M11.9707 14.5359L11.7852 14.7214L11.5996 14.5359H11.9707Z" stroke="#1C2150"/>
+<path id="Vector 4.1" d="M20.7925 14.5359L20.6069 14.7214L20.4214 14.5359H20.7925Z" stroke="#1C2150"/>
+<path id="Vector 3.2" d="M18.75 11.25H20.1429C20.3993 11.25 20.6071 11.4579 20.6071 11.7143V14.9643" stroke="#1C2150"/>
+</g>
+</g>
+</g>
+</g>
+</g>
 </svg>

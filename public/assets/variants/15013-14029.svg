@@ -5,3 +5,4 @@
 <circle cx="12" cy="12.5" r="5.5" fill="black"/>
 <path d="M14 12.5H12V9.5" stroke="black" stroke-linecap="round"/>
 </svg>
+

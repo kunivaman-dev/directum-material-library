@@ -1,13 +1,32 @@
 <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="9" y="5" width="38" height="48" rx="2" fill="white" stroke="#1C2150" stroke-width="2"/>
-<path d="M10 7C10 6.44772 10.4477 6 11 6H45C45.5523 6 46 6.44772 46 7V14H10V7Z" fill="#FFD299"/>
-<rect x="15.5" y="0.5" width="3" height="9" rx="1.5" fill="white" stroke="#1C2150"/>
-<rect x="36.5" y="0.5" width="3" height="9" rx="1.5" fill="white" stroke="#1C2150"/>
-<path d="M33.4474 22.9796C38.6483 25.4335 41.1199 31.389 39.516 36.8422M16.3125 31.9635C17.241 26.7309 20.7311 22.9796 25.7169 21.9944M34.6968 43.5653C27.9605 47.4221 21.1135 44.6785 18.0379 39.7575" stroke="#1C2150" stroke-miterlimit="10" stroke-linecap="round"/>
-<circle cx="16.5" cy="35.5" r="2.5" fill="#FFD299"/>
-<circle cx="29.5" cy="22.5" r="2.5" fill="#FF8000"/>
-<circle cx="37.5" cy="40.5" r="2.5" fill="#1C2150"/>
-<path d="M32.9463 42.9348L35.0044 43.2435L34.9015 45.3017" stroke="#1C2150" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M18.0567 30.7856L16.3853 32.0256L15 30.4999" stroke="#1C2150" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M33.8423 24.8777L33.2241 22.8905L35.1218 22.087" stroke="#1C2150" stroke-linecap="round" stroke-linejoin="round"/>
+<rect width="56" height="56" fill="#BCBCBC"/>
+<g id="&#208;&#152;&#208;&#186;&#208;&#190;&#208;&#189;&#208;&#186;&#208;&#184;">
+<rect width="1380" height="7171" transform="translate(-710 -3119)" fill="white"/>
+<g id="&#209;&#129;&#208;&#181;&#209;&#130;&#208;&#186;&#208;&#176;">
+<g id="&#208;&#151;&#208;&#176;&#208;&#180;&#208;&#176;&#209;&#135;&#208;&#176; &#208;&#189;&#208;&#176; &#209;&#129;&#208;&#178;&#208;&#190;&#208;&#177;&#208;&#190;&#208;&#180;&#208;&#189;&#208;&#190;&#208;&#181; &#209;&#129;&#208;&#190;&#208;&#179;&#208;&#187;&#208;&#176;&#209;&#129;&#208;&#190;&#208;&#178;&#208;&#176;&#208;&#189;&#208;&#184;&#208;&#181;">
+<rect width="290" height="112" transform="translate(0 -20)" fill="#EFEFEF"/>
+<g id="&#208;&#151;&#208;&#176;&#208;&#180;&#208;&#176;&#209;&#135;&#208;&#176; &#208;&#189;&#208;&#176; &#209;&#129;&#208;&#178;&#208;&#190;&#208;&#177;&#208;&#190;&#208;&#180;&#208;&#189;&#208;&#190;&#208;&#181; &#209;&#129;&#208;&#190;&#208;&#179;&#208;&#187;&#208;&#176;&#209;&#129;&#208;&#190;&#208;&#178;&#208;&#176;&#208;&#189;&#208;&#184;&#208;&#181;_2">
+<g id="&#208;&#146;&#208;&#184;&#208;&#180;=base">
+<g id="new">
+<g id="Group 430">
+<rect id="Rectangle 383" x="9" y="5" width="38" height="48" rx="2" fill="white" stroke="#1C2150" stroke-width="2"/>
+<path id="Rectangle 438" d="M10 7C10 6.44772 10.4477 6 11 6H45C45.5523 6 46 6.44772 46 7V14H10V7Z" fill="#FFD299"/>
+<rect id="Rectangle 384" x="15.5" y="0.5" width="3" height="9" rx="1.5" fill="white" stroke="#1C2150"/>
+<rect id="Rectangle 385" x="36.5" y="0.5" width="3" height="9" rx="1.5" fill="white" stroke="#1C2150"/>
+</g>
+<g id="new_2">
+<path id="Vector" d="M33.4474 22.9796C38.6483 25.4335 41.1199 31.389 39.516 36.8422M16.3125 31.9635C17.241 26.7309 20.7311 22.9796 25.7169 21.9944M34.6968 43.5653C27.9605 47.4221 21.1135 44.6785 18.0379 39.7575" stroke="#1C2150" stroke-miterlimit="10" stroke-linecap="round"/>
+<circle id="Ellipse" cx="16.5" cy="35.5" r="2.5" fill="#FFD299"/>
+<circle id="Ellipse_2" cx="29.5" cy="22.5" r="2.5" fill="#FF8000"/>
+<circle id="Ellipse_3" cx="37.5" cy="40.5" r="2.5" fill="#1C2150"/>
+<path id="Vector 2" d="M32.9463 42.9348L35.0044 43.2435L34.9015 45.3017" stroke="#1C2150" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 2.1" d="M18.0567 30.7856L16.3853 32.0256L15 30.4999" stroke="#1C2150" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 2.2" d="M33.8423 24.8777L33.2241 22.8905L35.1218 22.087" stroke="#1C2150" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
 </svg>

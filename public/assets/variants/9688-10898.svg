@@ -1,8 +1,29 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="1.5" y="2.5" width="21" height="15" rx="3.5" stroke="black"/>
-<path d="M14.6116 17.6111V20.6111H9.38892V17.6111H14.6116Z" stroke="black"/>
-<path d="M16.8889 20.6667H7.11108" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M8.88892 13.111L4.88892 10.8453V9.58813L8.88892 7.33325V8.80946L6.10088 10.1992L8.88892 11.6429C8.88892 11.6456 8.88892 13.111 8.88892 13.111Z" fill="black"/>
-<path d="M10.1868 14L12.7845 6.44446H13.6045L11.0017 14H10.1868Z" fill="black"/>
-<path d="M15.1111 13.111V11.6429L17.8991 10.21L15.1111 8.79054V7.33325L19.1111 9.59083V10.8399L15.1111 13.111Z" fill="black"/>
+<rect width="24" height="24" fill="#BCBCBC"/>
+<g id="&#208;&#152;&#208;&#186;&#208;&#190;&#208;&#189;&#208;&#186;&#208;&#184;">
+<rect width="1380" height="7171" transform="translate(-1206 -2387)" fill="white"/>
+<g id="&#209;&#129;&#208;&#181;&#209;&#130;&#208;&#186;&#208;&#176;">
+<g id="&#208;&#160;&#208;&#176;&#208;&#183;&#209;&#128;&#208;&#176;&#208;&#177;&#208;&#190;&#209;&#130;&#208;&#186;&#208;&#176;">
+<rect width="290" height="112" transform="translate(-166 -20)" fill="#EFEFEF"/>
+<g id="&#208;&#160;&#208;&#176;&#208;&#183;&#209;&#128;&#208;&#176;&#208;&#177;&#208;&#190;&#209;&#130;&#208;&#186;&#208;&#176;_2">
+<g id="&#208;&#146;&#208;&#184;&#208;&#180;=small-outline">
+<g id="new">
+<g id="Group 426">
+<rect id="Rectangle" x="1.5" y="2.5" width="21" height="15" rx="3.5" stroke="black"/>
+<path id="Vector" d="M14.6116 17.6111V20.6111H9.38892V17.6111H14.6116Z" stroke="black"/>
+<path id="Vector_2" d="M16.8889 20.6667H7.11108" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="Group">
+<g id="Group_2">
+<path id="Vector_3" d="M8.88892 13.111L4.88892 10.8453V9.58813L8.88892 7.33325V8.80946L6.10088 10.1992L8.88892 11.6429C8.88892 11.6456 8.88892 13.111 8.88892 13.111Z" fill="black"/>
+<path id="Vector_4" d="M10.1868 14L12.7845 6.44446H13.6045L11.0017 14H10.1868Z" fill="black"/>
+<path id="Vector_5" d="M15.1111 13.111V11.6429L17.8991 10.21L15.1111 8.79054V7.33325L19.1111 9.59083V10.8399L15.1111 13.111Z" fill="black"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
 </svg>
