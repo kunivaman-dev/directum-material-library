@@ -3,6 +3,8 @@ name: Deploy the Directum library to GitHub Pages
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - "sync/**"
   workflow_dispatch:
 
 permissions:
