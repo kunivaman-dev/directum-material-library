@@ -61,5 +61,9 @@ window.LOGO_CATALOG=[
   {id:'sedplus-icon-plus-color',brand:'СЭД+',title:'Знак «+»',layout:'icon',tone:'color',file:'assets/logos/sedplus-icon-plus-color.svg',node:'8398:7745'},
   {id:'sedplus-icon-plus-mono',brand:'СЭД+',title:'Знак «+» · моно',layout:'icon',tone:'mono',file:'assets/logos/sedplus-icon-plus-mono.svg',node:'8399:7877'},
   {id:'sedplus-icon-word-color',brand:'СЭД+',title:'Знак «СЭД+»',layout:'icon',tone:'color',file:'assets/logos/sedplus-icon-word-color.svg',node:'8398:7841'},
-  {id:'sedplus-icon-word-mono',brand:'СЭД+',title:'Знак «СЭД+» · моно',layout:'icon',tone:'mono',file:'assets/logos/sedplus-icon-word-mono.svg',node:'8399:7876'}
+  {id:'sedplus-icon-word-mono',brand:'СЭД+',title:'Знак «СЭД+» · моно',layout:'icon',tone:'mono',file:'assets/logos/sedplus-icon-word-mono.svg',node:'8399:7876'},
+
+  {id:'development-studio-horizontal-base',brand:'Development Studio',title:'Base',layout:'horizontal',tone:'base',file:'assets/logos/development-studio-horizontal-base.svg',node:'11032:7383'},
+  {id:'development-studio-horizontal-gray',brand:'Development Studio',title:'Gray',layout:'horizontal',tone:'gray',file:'assets/logos/development-studio-horizontal-gray.svg',node:'11032:7427'},
+  {id:'development-studio-icon-base-64',brand:'Development Studio',title:'Logo · 64',layout:'icon',tone:'base',file:'assets/logos/development-studio-icon-base-64.svg',node:'11032:7606'}
 ];
