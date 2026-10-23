@@ -1,10 +1,10 @@
 {
   "version": 1,
   "summary": {
-    "icons": 240,
+    "icons": 239,
     "families": 189,
-    "standalone": 51,
-    "variants": 1185,
+    "standalone": 50,
+    "variants": 1184,
     "mono": 189
   },
   "icons": {
@@ -10949,22 +10949,7 @@
           "sha256": "c49d4d44323495471b09c88844cf71a8d35aefb9523571568e4e37878ae55b01"
         }
       }
-    },
-    "11535:10742": {
-      "name": "Стилизация",
-      "title": "Стилизация",
-      "category": "Без категории",
-      "keywords": [],
-      "variants": {
-        "11535:10742": {
-          "label": "base",
-          "width": 56,
-          "height": 56,
-          "file": "assets/variants/11535-10742.svg",
-          "sha256": "7d558476ecac23c9ce68a33126594e4ceabc7743caacecf320868fe9feddc5a5"
-        }
-      }
     }
   },
-  "catalogSha256": "3d899fa4accfc5a7db84c26c67d16c953995a366e1ee436e76009cfd0f5be823"
+  "catalogSha256": "73c23c1cf83bac81748c57e8eba184b9c9a8bac08c65ab007f0b1f25eb7a07c9"
 }
