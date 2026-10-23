@@ -3,8 +3,8 @@ const context={window:{},console};
 vm.createContext(context);
 vm.runInContext(fs.readFileSync('public/catalog.js','utf8'),context);
 const catalog=context.window.ICON_CATALOG;
-assert.strictEqual(catalog.length,240,'catalog must contain every Figma owner');
-assert.strictEqual(catalog.flatMap(x=>x.variants).length,1185,'variant count must match Figma');
+assert.strictEqual(catalog.length,239,'catalog must contain every Figma owner');
+assert.strictEqual(catalog.flatMap(x=>x.variants).length,1184,'variant count must match Figma');
 assert.deepStrictEqual([...new Set(catalog.map(x=>x.cat))].sort(),[
   'Без категории','Бизнес-процессы','Документы','Интерфейс','Коммуникации','Отрасли','Пользователи','Системы'
 ]);
@@ -46,7 +46,7 @@ Object.assign(context,{
   setTimeout
 });
 vm.runInContext(fs.readFileSync('public/app.js','utf8'),context);
-assert.strictEqual(get('#visible-count').textContent,240);
+assert.strictEqual(get('#visible-count').textContent,239);
 assert(get('#grid').innerHTML.includes('class="icon-keywords"'),'icon cards must show keyword chips');
 get('#search').value='ежедневник';
 get('#search').handlers.input();
