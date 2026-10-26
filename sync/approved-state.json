@@ -1,10 +1,10 @@
 {
   "version": 1,
   "summary": {
-    "icons": 239,
+    "icons": 240,
     "families": 189,
-    "standalone": 50,
-    "variants": 1184,
+    "standalone": 51,
+    "variants": 1185,
     "mono": 189
   },
   "icons": {
@@ -267,59 +267,6 @@
           "height": 56,
           "file": "assets/variants/15013-15073.svg",
           "sha256": "09e87ce8cc17387b3c483a9787927883ce5ed21c11345b186d451622581b675a"
-        }
-      }
-    },
-    "10123:11104": {
-      "name": "Добыча",
-      "title": "Добыча",
-      "category": "Интерфейс",
-      "keywords": [
-        "Кирка",
-        "ископаемые"
-      ],
-      "variants": {
-        "692:0": {
-          "label": "base",
-          "width": 56,
-          "height": 56,
-          "file": "assets/variants/692-0.svg",
-          "sha256": "8d46afa123e4e2cda7c48776e890003afe77f9b1d61eb98d7c59e94187c8a006"
-        },
-        "10123:11148": {
-          "label": "outline",
-          "width": 56,
-          "height": 56,
-          "file": "assets/variants/10123-11148.svg",
-          "sha256": "f68bea22a69dd7880e464cf05da5d82c316f4ddd3041f248e1594672453801d0"
-        },
-        "10123:11116": {
-          "label": "small",
-          "width": 24,
-          "height": 24,
-          "file": "assets/variants/10123-11116.svg",
-          "sha256": "39655ff3c9a4c9c5e572db9dbf27dfe58acf0dd192a7049ab24aeec1585b0492"
-        },
-        "10123:11199": {
-          "label": "small-outline",
-          "width": 24,
-          "height": 24,
-          "file": "assets/variants/10123-11199.svg",
-          "sha256": "40ac83e4a724692949dc1548cfe1131e8e8474ac6e2f50c7043eece1d1706af9"
-        },
-        "15013:15078": {
-          "label": "mono",
-          "width": 24,
-          "height": 24,
-          "file": "assets/variants/15013-15078.svg",
-          "sha256": "13c23314c93a04b6ac7414e13d01d309116e18f5f702d8bf9343538e82ed795d"
-        },
-        "15013:15085": {
-          "label": "3d",
-          "width": 56,
-          "height": 56,
-          "file": "assets/variants/15013-15085.svg",
-          "sha256": "8d46afa123e4e2cda7c48776e890003afe77f9b1d61eb98d7c59e94187c8a006"
         }
       }
     },
@@ -1848,6 +1795,59 @@
         }
       }
     },
+    "10123:11104": {
+      "name": "Добыча",
+      "title": "Добыча",
+      "category": "Интерфейс",
+      "keywords": [
+        "Кирка",
+        "ископаемые"
+      ],
+      "variants": {
+        "692:0": {
+          "label": "base",
+          "width": 56,
+          "height": 56,
+          "file": "assets/variants/692-0.svg",
+          "sha256": "8d46afa123e4e2cda7c48776e890003afe77f9b1d61eb98d7c59e94187c8a006"
+        },
+        "10123:11148": {
+          "label": "outline",
+          "width": 56,
+          "height": 56,
+          "file": "assets/variants/10123-11148.svg",
+          "sha256": "f68bea22a69dd7880e464cf05da5d82c316f4ddd3041f248e1594672453801d0"
+        },
+        "10123:11116": {
+          "label": "small",
+          "width": 24,
+          "height": 24,
+          "file": "assets/variants/10123-11116.svg",
+          "sha256": "39655ff3c9a4c9c5e572db9dbf27dfe58acf0dd192a7049ab24aeec1585b0492"
+        },
+        "10123:11199": {
+          "label": "small-outline",
+          "width": 24,
+          "height": 24,
+          "file": "assets/variants/10123-11199.svg",
+          "sha256": "40ac83e4a724692949dc1548cfe1131e8e8474ac6e2f50c7043eece1d1706af9"
+        },
+        "15013:15078": {
+          "label": "mono",
+          "width": 24,
+          "height": 24,
+          "file": "assets/variants/15013-15078.svg",
+          "sha256": "13c23314c93a04b6ac7414e13d01d309116e18f5f702d8bf9343538e82ed795d"
+        },
+        "15013:15085": {
+          "label": "3d",
+          "width": 56,
+          "height": 56,
+          "file": "assets/variants/15013-15085.svg",
+          "sha256": "8d46afa123e4e2cda7c48776e890003afe77f9b1d61eb98d7c59e94187c8a006"
+        }
+      }
+    },
     "1:10609": {
       "name": "Договор",
       "title": "Договор",
@@ -2492,58 +2492,6 @@
         }
       }
     },
-    "9954:10290": {
-      "name": "Задача по бизнес-процессу",
-      "title": "Задача по бизнес-процессу · 1",
-      "category": "Бизнес-процессы",
-      "keywords": [
-        "Схема"
-      ],
-      "variants": {
-        "9954:10320": {
-          "label": "base",
-          "width": 56,
-          "height": 56,
-          "file": "assets/variants/9954-10320.svg",
-          "sha256": "d38ccc1cccea9f2c49edf3d0826c6ab6595ea03425704798fb2e0766e5b1dfd6"
-        },
-        "9954:10291": {
-          "label": "outline",
-          "width": 56,
-          "height": 56,
-          "file": "assets/variants/9954-10291.svg",
-          "sha256": "6e4fe6bdafb7a53df3749b47568bb9f6d8d9074634132e2b8aee24dfe8aeb200"
-        },
-        "15013:16077": {
-          "label": "small",
-          "width": 24,
-          "height": 24,
-          "file": "assets/variants/15013-16077.svg",
-          "sha256": "0e6542ca2dcd55957a560b395db689ab111d75da0ab5e30c860a231192b5475d"
-        },
-        "9954:10346": {
-          "label": "small-outline",
-          "width": 24,
-          "height": 24,
-          "file": "assets/variants/9954-10346.svg",
-          "sha256": "154a95e8ed51397383f0495946da1160c3f5ea9f101f34d0cfaee44353c0d599"
-        },
-        "15013:16094": {
-          "label": "mono",
-          "width": 24,
-          "height": 24,
-          "file": "assets/variants/15013-16094.svg",
-          "sha256": "fb0e1b89aa6936a00dfbbf0422150a4504fdac16edc77f648a7f1bd512fd78c3"
-        },
-        "9954:10358": {
-          "label": "3d",
-          "width": 24,
-          "height": 24,
-          "file": "assets/variants/9954-10358.svg",
-          "sha256": "f588598ef8643ab03192f4e703fb13d53c55c102cb6e17e0475b19f16b564eda"
-        }
-      }
-    },
     "9972:10489": {
       "name": "Задача на исполнение поручений",
       "title": "Задача на исполнение поручений",
@@ -2749,6 +2697,58 @@
           "height": 56,
           "file": "assets/variants/15013-14068.svg",
           "sha256": "7929f0cb4a07e0972f144c1feff7c2fd664143f756c3831fde1114f6ff3e8d63"
+        }
+      }
+    },
+    "9954:10290": {
+      "name": "Задача по бизнес-процессу",
+      "title": "Задача по бизнес-процессу · 1",
+      "category": "Бизнес-процессы",
+      "keywords": [
+        "Схема"
+      ],
+      "variants": {
+        "9954:10320": {
+          "label": "base",
+          "width": 56,
+          "height": 56,
+          "file": "assets/variants/9954-10320.svg",
+          "sha256": "d38ccc1cccea9f2c49edf3d0826c6ab6595ea03425704798fb2e0766e5b1dfd6"
+        },
+        "9954:10291": {
+          "label": "outline",
+          "width": 56,
+          "height": 56,
+          "file": "assets/variants/9954-10291.svg",
+          "sha256": "6e4fe6bdafb7a53df3749b47568bb9f6d8d9074634132e2b8aee24dfe8aeb200"
+        },
+        "15013:16077": {
+          "label": "small",
+          "width": 24,
+          "height": 24,
+          "file": "assets/variants/15013-16077.svg",
+          "sha256": "0e6542ca2dcd55957a560b395db689ab111d75da0ab5e30c860a231192b5475d"
+        },
+        "9954:10346": {
+          "label": "small-outline",
+          "width": 24,
+          "height": 24,
+          "file": "assets/variants/9954-10346.svg",
+          "sha256": "154a95e8ed51397383f0495946da1160c3f5ea9f101f34d0cfaee44353c0d599"
+        },
+        "15013:16094": {
+          "label": "mono",
+          "width": 24,
+          "height": 24,
+          "file": "assets/variants/15013-16094.svg",
+          "sha256": "fb0e1b89aa6936a00dfbbf0422150a4504fdac16edc77f648a7f1bd512fd78c3"
+        },
+        "9954:10358": {
+          "label": "3d",
+          "width": 24,
+          "height": 24,
+          "file": "assets/variants/9954-10358.svg",
+          "sha256": "f588598ef8643ab03192f4e703fb13d53c55c102cb6e17e0475b19f16b564eda"
         }
       }
     },
@@ -3691,6 +3691,25 @@
           "height": 56,
           "file": "assets/variants/5681-12117.svg",
           "sha256": "9b3e7feb68184a19c18cb4bd9e7d1fc72cae0eceb29691bf32380c261d5ee784"
+        }
+      }
+    },
+    "15714:8953": {
+      "name": "Корпоративные услуги",
+      "title": "Корпоративные услуги",
+      "category": "Бизнес-процессы",
+      "keywords": [
+        "Офис",
+        "работа",
+        "услуги"
+      ],
+      "variants": {
+        "15714:8953": {
+          "label": "base",
+          "width": 56,
+          "height": 56,
+          "file": "assets/variants/15714-8953.svg",
+          "sha256": "c49d4d44323495471b09c88844cf71a8d35aefb9523571568e4e37878ae55b01"
         }
       }
     },
@@ -6081,6 +6100,59 @@
         }
       }
     },
+    "10070:10333": {
+      "name": "Право, юриспруденция",
+      "title": "Право, юриспруденция",
+      "category": "Отрасли",
+      "keywords": [
+        "Весы",
+        "Сравнение"
+      ],
+      "variants": {
+        "1321:5390": {
+          "label": "base",
+          "width": 56,
+          "height": 56,
+          "file": "assets/variants/1321-5390.svg",
+          "sha256": "95e8de25b00cc324ac42f4d185db17429d28a6a29e60f2d1b2b8cce32fc25c31"
+        },
+        "10070:10439": {
+          "label": "outline",
+          "width": 56,
+          "height": 56,
+          "file": "assets/variants/10070-10439.svg",
+          "sha256": "4c2ffa9f6f23eac5517ae5ae71b9604acbdd034cef8099b6ac1cd8bf850349b2"
+        },
+        "10070:10496": {
+          "label": "small",
+          "width": 24,
+          "height": 24,
+          "file": "assets/variants/10070-10496.svg",
+          "sha256": "e6dbd6dac7958c7fda9a1883b39c69f9ef8a647db2acf519632cd27fd9bcb18f"
+        },
+        "10070:10526": {
+          "label": "small-outline",
+          "width": 24,
+          "height": 24,
+          "file": "assets/variants/10070-10526.svg",
+          "sha256": "99571b3ee6feb64d51cb3d3ccce9c88f9f9a33a24dc91197766b03be99f4e7b1"
+        },
+        "15013:14663": {
+          "label": "mono",
+          "width": 24,
+          "height": 24,
+          "file": "assets/variants/15013-14663.svg",
+          "sha256": "06756df5f1a5e1b855e3bf31acf662591bfd690ada35523a143ce106f53cd3d2"
+        },
+        "15013:14678": {
+          "label": "3d",
+          "width": 56,
+          "height": 56,
+          "file": "assets/variants/15013-14678.svg",
+          "sha256": "95e8de25b00cc324ac42f4d185db17429d28a6a29e60f2d1b2b8cce32fc25c31"
+        }
+      }
+    },
     "10051:10519": {
       "name": "Предупреждение",
       "title": "Предупреждение",
@@ -7315,6 +7387,58 @@
         }
       }
     },
+    "10070:10544": {
+      "name": "Сделано в России",
+      "title": "Сделано в России",
+      "category": "Интерфейс",
+      "keywords": [
+        "Импортозамещение"
+      ],
+      "variants": {
+        "5258:8499": {
+          "label": "base",
+          "width": 56,
+          "height": 56,
+          "file": "assets/variants/5258-8499.svg",
+          "sha256": "38c039ff219e2e4a14a71a73b62cbf4fb9c304496ff8b23bb0659cd93dce662b"
+        },
+        "10070:10641": {
+          "label": "outline",
+          "width": 56,
+          "height": 56,
+          "file": "assets/variants/10070-10641.svg",
+          "sha256": "0004712a7c78c40cd866301e95348ce87aaf4b1fc13636cd7d2fa18674d001fe"
+        },
+        "10070:10588": {
+          "label": "small",
+          "width": 24,
+          "height": 24,
+          "file": "assets/variants/10070-10588.svg",
+          "sha256": "2f82fe3818003deca0d9a94090e0ae19397ac567459867277d4261239a6a6c25"
+        },
+        "10070:10697": {
+          "label": "small-outline",
+          "width": 24,
+          "height": 24,
+          "file": "assets/variants/10070-10697.svg",
+          "sha256": "fb69f2a74224f7d78aa47ac37e8c7c963973455cf325873d110f8161e8081fa9"
+        },
+        "15013:14697": {
+          "label": "mono",
+          "width": 24,
+          "height": 24,
+          "file": "assets/variants/15013-14697.svg",
+          "sha256": "fb69f2a74224f7d78aa47ac37e8c7c963973455cf325873d110f8161e8081fa9"
+        },
+        "15013:14715": {
+          "label": "3d",
+          "width": 56,
+          "height": 56,
+          "file": "assets/variants/15013-14715.svg",
+          "sha256": "38c039ff219e2e4a14a71a73b62cbf4fb9c304496ff8b23bb0659cd93dce662b"
+        }
+      }
+    },
     "10196:10302": {
       "name": "Сервер",
       "title": "Сервер",
@@ -7969,111 +8093,6 @@
         }
       }
     },
-    "10070:10333": {
-      "name": "Право, юриспруденция",
-      "title": "Право, юриспруденция",
-      "category": "Отрасли",
-      "keywords": [
-        "Весы",
-        "Сравнение"
-      ],
-      "variants": {
-        "1321:5390": {
-          "label": "base",
-          "width": 56,
-          "height": 56,
-          "file": "assets/variants/1321-5390.svg",
-          "sha256": "95e8de25b00cc324ac42f4d185db17429d28a6a29e60f2d1b2b8cce32fc25c31"
-        },
-        "10070:10439": {
-          "label": "outline",
-          "width": 56,
-          "height": 56,
-          "file": "assets/variants/10070-10439.svg",
-          "sha256": "4c2ffa9f6f23eac5517ae5ae71b9604acbdd034cef8099b6ac1cd8bf850349b2"
-        },
-        "10070:10496": {
-          "label": "small",
-          "width": 24,
-          "height": 24,
-          "file": "assets/variants/10070-10496.svg",
-          "sha256": "e6dbd6dac7958c7fda9a1883b39c69f9ef8a647db2acf519632cd27fd9bcb18f"
-        },
-        "10070:10526": {
-          "label": "small-outline",
-          "width": 24,
-          "height": 24,
-          "file": "assets/variants/10070-10526.svg",
-          "sha256": "99571b3ee6feb64d51cb3d3ccce9c88f9f9a33a24dc91197766b03be99f4e7b1"
-        },
-        "15013:14663": {
-          "label": "mono",
-          "width": 24,
-          "height": 24,
-          "file": "assets/variants/15013-14663.svg",
-          "sha256": "06756df5f1a5e1b855e3bf31acf662591bfd690ada35523a143ce106f53cd3d2"
-        },
-        "15013:14678": {
-          "label": "3d",
-          "width": 56,
-          "height": 56,
-          "file": "assets/variants/15013-14678.svg",
-          "sha256": "95e8de25b00cc324ac42f4d185db17429d28a6a29e60f2d1b2b8cce32fc25c31"
-        }
-      }
-    },
-    "10070:10544": {
-      "name": "Сделано в России",
-      "title": "Сделано в России",
-      "category": "Интерфейс",
-      "keywords": [
-        "Импортозамещение"
-      ],
-      "variants": {
-        "5258:8499": {
-          "label": "base",
-          "width": 56,
-          "height": 56,
-          "file": "assets/variants/5258-8499.svg",
-          "sha256": "38c039ff219e2e4a14a71a73b62cbf4fb9c304496ff8b23bb0659cd93dce662b"
-        },
-        "10070:10641": {
-          "label": "outline",
-          "width": 56,
-          "height": 56,
-          "file": "assets/variants/10070-10641.svg",
-          "sha256": "0004712a7c78c40cd866301e95348ce87aaf4b1fc13636cd7d2fa18674d001fe"
-        },
-        "10070:10588": {
-          "label": "small",
-          "width": 24,
-          "height": 24,
-          "file": "assets/variants/10070-10588.svg",
-          "sha256": "2f82fe3818003deca0d9a94090e0ae19397ac567459867277d4261239a6a6c25"
-        },
-        "10070:10697": {
-          "label": "small-outline",
-          "width": 24,
-          "height": 24,
-          "file": "assets/variants/10070-10697.svg",
-          "sha256": "fb69f2a74224f7d78aa47ac37e8c7c963973455cf325873d110f8161e8081fa9"
-        },
-        "15013:14697": {
-          "label": "mono",
-          "width": 24,
-          "height": 24,
-          "file": "assets/variants/15013-14697.svg",
-          "sha256": "fb69f2a74224f7d78aa47ac37e8c7c963973455cf325873d110f8161e8081fa9"
-        },
-        "15013:14715": {
-          "label": "3d",
-          "width": 56,
-          "height": 56,
-          "file": "assets/variants/15013-14715.svg",
-          "sha256": "38c039ff219e2e4a14a71a73b62cbf4fb9c304496ff8b23bb0659cd93dce662b"
-        }
-      }
-    },
     "9729:10288": {
       "name": "Сравнение документов",
       "title": "Сравнение документов",
@@ -8141,6 +8160,21 @@
           "height": 29.41948699951172,
           "file": "assets/variants/5418-17212.svg",
           "sha256": "f5746ec1348765dc4e5ca83a9b9037a99fcd91a2982f627a19605433bc7f490f"
+        }
+      }
+    },
+    "11535:10742": {
+      "name": "Стилизация",
+      "title": "Стилизация",
+      "category": "Без категории",
+      "keywords": [],
+      "variants": {
+        "11535:10742": {
+          "label": "base",
+          "width": 56,
+          "height": 56,
+          "file": "assets/variants/11535-10742.svg",
+          "sha256": "21d22a15188422ef527d66d4cbc505c0218da4bf90e4eae8da72a3013ee34610"
         }
       }
     },
@@ -10930,26 +10964,7 @@
           "sha256": "111b2967382f1e78bec51d95bf33a08cc3962e1e96d87e1e8a4c7652a9fe2cc7"
         }
       }
-    },
-    "15714:8953": {
-      "name": "Корпоративные услуги",
-      "title": "Корпоративные услуги",
-      "category": "Бизнес-процессы",
-      "keywords": [
-        "Офис",
-        "работа",
-        "услуги"
-      ],
-      "variants": {
-        "15714:8953": {
-          "label": "base",
-          "width": 56,
-          "height": 56,
-          "file": "assets/variants/15714-8953.svg",
-          "sha256": "c49d4d44323495471b09c88844cf71a8d35aefb9523571568e4e37878ae55b01"
-        }
-      }
     }
   },
-  "catalogSha256": "73c23c1cf83bac81748c57e8eba184b9c9a8bac08c65ab007f0b1f25eb7a07c9"
+  "catalogSha256": "b1b777eea8ab82778ebdd9906f1421abc8a168b0cf291a15095e309ef4492a71"
 }
