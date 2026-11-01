@@ -6950,7 +6950,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/5698-13269.svg",
-          "sha256": "69bec0b3b6d0dbf2844dd9cdb4b34c52c99d4cea671cd6d48731e6285c1fb7bc"
+          "sha256": "e10567e7b0bc9eec4eb9a3e6a1cd164775dd2ea419c4f9119366a1a6428ad2a9"
         },
         "5789:11492": {
           "label": "small-outline",
@@ -10966,5 +10966,5 @@
       }
     }
   },
-  "catalogSha256": "b1b777eea8ab82778ebdd9906f1421abc8a168b0cf291a15095e309ef4492a71"
+  "catalogSha256": "8b78642230080e65918952054c5c7a1d99a0cd7f0ec1d458ebca50407195c873"
 }
