@@ -4,6 +4,9 @@
 с библиотеками [иконок](https://www.figma.com/design/nCpoXr1g7y4CP4BNBCIas8/) и
 [логотипов](https://www.figma.com/design/FvX1U25kcxavZk0G2nq5HlPd/).
 
+Подробное описание компонентов, потоков данных и двух публикаций находится в
+[ARCHITECTURE.md](ARCHITECTURE.md).
+
 ## Как устроены данные
 
 - `public/catalog.js` — единый источник метаданных для сайта: название, категория,
