@@ -4,7 +4,8 @@
 с библиотеками [иконок](https://www.figma.com/design/nCpoXr1g7y4CP4BNBCIas8/) и
 [логотипов](https://www.figma.com/design/FvX1U25kcxavZk0G2nq5HlPd/).
 
-Подробное описание компонентов, потоков данных и двух публикаций находится в
+Подробное описание компонентов, потоков данных, двух публичных площадок и
+репозиториев-зеркал находится в
 [ARCHITECTURE.md](ARCHITECTURE.md).
 
 ## Как устроены данные
@@ -81,17 +82,25 @@ python3 scripts/catalog_guard.py approve
    состояние командой `python3 scripts/catalog_guard.py approve`.
 8. После успешной публикации Sites синхронизировать тот же канонический исходный
    коммит в `kunivaman-dev/directum-material-library`. GitHub Actions обязан
-   успешно собрать и опубликовать GitHub Pages; только после проверки обоих
-   адресов синхронизация считается завершённой.
+   успешно собрать и опубликовать GitHub Pages.
+9. Передать тот же исходник в GitLab-проект
+   `sergey-kunaev/directum-design-materials` и проверить, что ветка `main`
+   указывает на канонический коммит. Только после проверки обоих публичных
+   адресов и GitLab-зеркала синхронизация считается завершённой.
 
-## Единая публикация Sites и GitHub Pages
+## Единый исходник для Sites, GitHub и GitLab
 
-Канонический исходник хранится в репозитории Sites. GitHub содержит его точное
-зеркало и не поддерживает отдельную вручную редактируемую копию `dist`.
+Канонический исходник хранится в репозитории Sites. GitHub и GitLab содержат его
+точные зеркала и не поддерживают отдельные вручную редактируемые копии `dist`.
 Workflow `.github/workflows/pages.yml` запускает те же проверки и сборку, затем
 `scripts/prepare-github-pages.mjs` формирует статический артефакт для GitHub
 Pages. В него входят главная страница, маршруты `/icons` и `/logos`, каталоги и
 все SVG-ресурсы. Домен GitHub Pages: `https://directum-design.desserg.ru/`.
+
+GitLab-проект
+`https://gitlabozrrx.directum.ru/sergey-kunaev/directum-design-materials`
+служит внутренним зеркалом исходного кода. Он не является третьим хостингом
+сайта и не запускает собственную сборку: `.gitlab-ci.yml` отключает Auto DevOps.
 
 Текущий снимок: 240 карточек, 1 185 вариантов, 8 категорий с учётом
 «Без категории».
