@@ -126,7 +126,7 @@
           "width": 56,
           "height": 56,
           "file": "assets/variants/9688-10487.svg",
-          "sha256": "c061e7660b79abb942c1a113d6ab5c490775f7dcffce010ae59bf7dc4562c388"
+          "sha256": "39e604a96fc4ecdc19f985e81d7b3a591cd45ef1a4a6d6eaf64c227b083d3c5f"
         },
         "9688:10556": {
           "label": "outline",
@@ -140,7 +140,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/9688-10619.svg",
-          "sha256": "f4ff1ffc9d991931846744cfcd0f09552eab7a0b080faba5cbc974cb1cb737e3"
+          "sha256": "07370f870b93c114ed6423db30e35aacfde0daa9f8a070772ccff0f94302cd6e"
         },
         "9688:10640": {
           "label": "small-outline",
@@ -1878,7 +1878,7 @@
           "width": 56,
           "height": 56,
           "file": "assets/variants/8300-13333.svg",
-          "sha256": "f597bb6eb3bb74bf7a8d916a4263db6e52bfc731f3414594595c0bade1139489"
+          "sha256": "e7193c4704bd74fe1c8822a922170db4e7dc50efc09c3ebe7a7066a4ccf393c2"
         }
       }
     },
@@ -2519,14 +2519,14 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/9972-10548.svg",
-          "sha256": "731faac42c50075a61bba184d2ae974634f6f28b1248634f0f134dad2197bfa5"
+          "sha256": "2e986fa54f82019d02bd465b5ca455fb07666f7c350c01c9dbf15ba9a0812bc4"
         },
         "9972:10639": {
           "label": "small-outline",
           "width": 24,
           "height": 24,
           "file": "assets/variants/9972-10639.svg",
-          "sha256": "cd23d5b243ed19565276836658352529e369290b1feb6ead511a9612de2c8e8d"
+          "sha256": "80a1979385bc0c09a8efc89408dd66342d128eddbdccb8dc8a24e4b011f1a061"
         },
         "15013:14029": {
           "label": "mono",
@@ -2557,28 +2557,28 @@
           "width": 56,
           "height": 56,
           "file": "assets/variants/9978-10367.svg",
-          "sha256": "6f93497d4441facbb60ba5014a636b9cd1e549b716fc2b995aaacaecdbd7e2a2"
+          "sha256": "2d78b4aa688a05ef218908a5c765eb38c5bcafe60d0798c3404bf3a05153589f"
         },
         "9972:10673": {
           "label": "outline",
           "width": 56,
           "height": 56,
           "file": "assets/variants/9972-10673.svg",
-          "sha256": "f43d5c94a3d9b7678da94d4c99921465280dd37ec3fa5e2288512fd726a4c2c1"
+          "sha256": "41cd8680c64b60c691aab589ab5ecdbe7a4207d753d2c14c080e320ece166c83"
         },
         "9972:10697": {
           "label": "small",
           "width": 24,
           "height": 24,
           "file": "assets/variants/9972-10697.svg",
-          "sha256": "5ae8da3e4938a2a1462957c1d819203be6cac0621063790d43debcd687a67602"
+          "sha256": "ead9d1e402c9cde17e9c7023dbb2db0016bd378a24e6a7f61145dac4a33fb3c6"
         },
         "9972:10703": {
           "label": "small-outline",
           "width": 24,
           "height": 24,
           "file": "assets/variants/9972-10703.svg",
-          "sha256": "45174a8efc1cee0fd630293c58aea8f2df02a2be7b252ed4ce34f45a3190b064"
+          "sha256": "8dbb0fb4597713b8878d5da2db7daba3f054fed7aed74dbd3945a79123b1e53f"
         },
         "15013:14092": {
           "label": "mono",
@@ -2609,28 +2609,28 @@
           "width": 56,
           "height": 56,
           "file": "assets/variants/9960-10471.svg",
-          "sha256": "962b6725e1268cd6cf1ecd9bd8695c97abb034d9d53730317db087d5319b15e6"
+          "sha256": "75d414295f2f328cce65c79b1b4051c18f6b08cf1b936f4a9bdf6ae000eeab4d"
         },
         "9960:10417": {
           "label": "outline",
           "width": 56,
           "height": 56,
           "file": "assets/variants/9960-10417.svg",
-          "sha256": "05fc514493eea9ddb7e68001656de827c0fd33326e3db4d643b328754931fc43"
+          "sha256": "70e32b430da742f170c7316cbeb0fcf67c384521e37fc00b0df98cfa8b5e56d6"
         },
         "9968:10328": {
           "label": "small",
           "width": 24,
           "height": 24,
           "file": "assets/variants/9968-10328.svg",
-          "sha256": "8454c202c9001b51004f2d02324826a81ac32fef49877e1759a601544d0a938c"
+          "sha256": "414c10ae8bba0434586dadb717c4f7e7926cb3f7c84ce8b91f0c23a977746dde"
         },
         "9971:10367": {
           "label": "small-outline",
           "width": 24,
           "height": 24,
           "file": "assets/variants/9971-10367.svg",
-          "sha256": "f3a6b46bcbfa145496a1cf2fe098897e4a89ba467ba78698acf8e61a6ec800ba"
+          "sha256": "0d4f1cdd6e75ef08c16e30ef877b4930b79db73c916363dbe456c55d0cd99f51"
         },
         "15013:13994": {
           "label": "mono",
@@ -2661,7 +2661,7 @@
           "width": 56,
           "height": 56,
           "file": "assets/variants/9978-10291.svg",
-          "sha256": "987e92cabab089420c272d21ee2233b8025bbe4112a7b5ae7170b6fcc51ad69b"
+          "sha256": "af9ef4e1b6b11ca482eb474913d52631d4712d98c7c367c6a2a75e05d2ee1ac8"
         },
         "9978:10315": {
           "label": "outline",
@@ -2675,14 +2675,14 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/9978-10341.svg",
-          "sha256": "2f7c5a9ebb87f0b69d226e33f3dca8a97100b15f231c253752027d90d0638f9b"
+          "sha256": "de41e9b604b7252440078eae215f48d991dc8782c4880c158b94ac9218aac1c3"
         },
         "9978:10351": {
           "label": "small-outline",
           "width": 24,
           "height": 24,
           "file": "assets/variants/9978-10351.svg",
-          "sha256": "31fc9bc8329f1b9031cd3698b7dcb135ee47bc81efba7729e7e1e49df2db2ee5"
+          "sha256": "65c2e0206f216756003892d7e482047be09208557e507655586998478124928c"
         },
         "15013:14058": {
           "label": "mono",
@@ -2734,7 +2734,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/9954-10346.svg",
-          "sha256": "154a95e8ed51397383f0495946da1160c3f5ea9f101f34d0cfaee44353c0d599"
+          "sha256": "3f8685917bea3c21fac90d3194f07e3cc7e0daedce45714fea92bdadefc1cafe"
         },
         "15013:16094": {
           "label": "mono",
@@ -2748,7 +2748,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/9954-10358.svg",
-          "sha256": "f588598ef8643ab03192f4e703fb13d53c55c102cb6e17e0475b19f16b564eda"
+          "sha256": "e9c2c673ece10112ab6481426cb020c459d4b0d48faaf613178e499cd0f9f214"
         }
       }
     },
@@ -2779,14 +2779,14 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/9943-11046.svg",
-          "sha256": "1dad861d9e7817a79cbe83110fc478ee96ef80e3b4e0c6e0ae712b8c5eadf1f3"
+          "sha256": "75e1ba0472decbda9268a382a2abfd0d8f31cd8d047e943811c019731622d79a"
         },
         "9943:11074": {
           "label": "small-outline",
           "width": 24,
           "height": 24,
           "file": "assets/variants/9943-11074.svg",
-          "sha256": "d191c61118f064fdc07fe40a95184cc61f13b81272173cbd54584aa5fc222c6f"
+          "sha256": "3f1ad6aa72da4e0350b7d86f8bccd32bad7d87afdfa7477672cf31927dd37052"
         },
         "15013:13930": {
           "label": "mono",
@@ -3278,7 +3278,7 @@
           "width": 56,
           "height": 56,
           "file": "assets/variants/8524-13147.svg",
-          "sha256": "b61f4edb9de91818029f76825b81a485ed1973a066d19ed6c2dec07ebb68525c"
+          "sha256": "122a53da8a21735caffa400da541d023493062f413f12ddbe645ad2ecbe8b80f"
         },
         "8524:13225": {
           "label": "outline",
@@ -3292,14 +3292,14 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/8524-13301.svg",
-          "sha256": "23158bc21c19865eb16a6499e458c1cdd3fc58487f006d445297d503f56dfce6"
+          "sha256": "8dd668cb843267955925e483489b0f74b1be186c6592298d918140ce656ebc51"
         },
         "8524:13350": {
           "label": "small-outline",
           "width": 24,
           "height": 24,
           "file": "assets/variants/8524-13350.svg",
-          "sha256": "70f9e85f440e24c745475f4924673b9849a0eb4cf06702740f3653c0657f4677"
+          "sha256": "17371c14a96060739d26286e444383fffba3c93150465cab1a233c6319e6dd01"
         },
         "15013:12765": {
           "label": "mono",
@@ -3608,7 +3608,7 @@
           "width": 56,
           "height": 56,
           "file": "assets/variants/9750-10656.svg",
-          "sha256": "37ad5698ed57349071ffc7a2ba252c0bc47806dbc07ca2f04d59b397a61fd531"
+          "sha256": "30bd50ece053ea83eebb77c720d510045a0c269cc84e7e19ba9e05cb09e8b76b"
         },
         "5418:17123": {
           "label": "small",
@@ -3622,7 +3622,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/9752-10743.svg",
-          "sha256": "20ef9df41fb100e9d62c9376b22b88f5a65370ea5f2d731639578ff4ba0aa1f7"
+          "sha256": "1fb41041fe6addf4868edb857a0e4ce98ae437315c2fca2adaa77853f3f11417"
         },
         "15013:13564": {
           "label": "mono",
@@ -3863,14 +3863,14 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/9724-10287.svg",
-          "sha256": "af9c8ff0ecdb3d2aed94d84a0ada2fb4fd7d4c74b7230ca1296e3fed1226f044"
+          "sha256": "59b35bfbb5576f3b0d2b28e086a8d9e51a743b9421ad52c9370287b642fc6f75"
         },
         "9727:10312": {
           "label": "small-outline",
           "width": 24,
           "height": 24,
           "file": "assets/variants/9727-10312.svg",
-          "sha256": "a76891fe2d1ab629405dd9db843b5e6aaf3e6630e3c891ee4612ded8f94a213a"
+          "sha256": "71f01c97904e4a40c706404b7d052dc01db58615d2a8179935c9f9dd400ba3bd"
         },
         "15013:13359": {
           "label": "mono",
@@ -3955,14 +3955,14 @@
           "width": 56,
           "height": 56,
           "file": "assets/variants/8524-13432.svg",
-          "sha256": "f55f2851c9fb8bb2d2dcadf4a71162c623198eb4c596e30ee1a6d0d5cb68a0d2"
+          "sha256": "78b0b725c793d292e52c8d388a5c6145dc996e6740e94f61355654827e6d70b3"
         },
         "8524:13455": {
           "label": "outline",
           "width": 56,
           "height": 56,
           "file": "assets/variants/8524-13455.svg",
-          "sha256": "5e6a7398b865be9b3853cf6ffb525123db15dfcb5d14b24fb95166388e704cc4"
+          "sha256": "c855a42eb96e3dbd14be598a7d69ca64c20c256dd6fa0bb1ab8a62d418a2f483"
         },
         "8524:13487": {
           "label": "small",
@@ -3976,7 +3976,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/8524-13496.svg",
-          "sha256": "c7111ceefae46216d43915badb856389e1d6223a846c1fc3b30c3931712de244"
+          "sha256": "1b4c8b4742801584825f1634968fee7c109792d2c382c4616a409ab09dc9878c"
         },
         "15013:12893": {
           "label": "mono",
@@ -4147,7 +4147,7 @@
           "width": 56,
           "height": 56,
           "file": "assets/variants/9742-10371.svg",
-          "sha256": "533714088b0294fc0259e628108a159a5a4616c0ec53f6681bc258d752e2caca"
+          "sha256": "4824e76f5a78b5c0632659d91e4e85774c517e2964d65bfe1701dc749bce9b79"
         },
         "9742:10377": {
           "label": "outline",
@@ -4161,7 +4161,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/9741-10310.svg",
-          "sha256": "331cbb58359c13a5c0d032c3d3ed4148a228276f3aa7128a9dea45d4613b7b7c"
+          "sha256": "fcc308eadeda2e58965e16b37fe8f4d9e3ecf9246bf9d68b5c276c7b2fa8c61e"
         },
         "9741:10324": {
           "label": "small-outline",
@@ -4366,7 +4366,7 @@
           "width": 56,
           "height": 56,
           "file": "assets/variants/8578-13507.svg",
-          "sha256": "ef6983e5f190f6cd9bf06e75774946642b756c9e3b387b2079148bf848f130bd"
+          "sha256": "75f5e37ba239a7baa0ce28a589c774b22663872c35e05d9e44c12f6ee3853bcb"
         },
         "8578:13539": {
           "label": "small",
@@ -4380,7 +4380,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/8578-13548.svg",
-          "sha256": "7f588c8e2236d215e1f374a9b0e563aaf6ef0e7ca1fa981e6680adfc672ed053"
+          "sha256": "b9c4a0bc4a918fe6d8e4cd9038f24bf9ea97a30a483980a4ab5be41c7d3ef692"
         },
         "15013:12953": {
           "label": "mono",
@@ -4680,7 +4680,7 @@
           "width": 56,
           "height": 56,
           "file": "assets/variants/2464-2652.svg",
-          "sha256": "72220819c2662763f579c6cf2bc0ae58dd68c7c021c800ec098d5ee3389c6129"
+          "sha256": "4b5d611ebbddf7eaf002d975197e3b606240aac3dee8250ab8505574ca872efc"
         }
       }
     },
@@ -4756,7 +4756,7 @@
           "width": 56,
           "height": 56,
           "file": "assets/variants/9908-10560.svg",
-          "sha256": "f762aa624ac56d72f22e0a539f0b81995bbc51d2b86b834fdf7462557edea70a"
+          "sha256": "d688a32414896ca0e1557070b773055593410fc87fda7bf0aa949a52ee594fa0"
         },
         "9907:10491": {
           "label": "small",
@@ -5032,7 +5032,7 @@
           "width": 56,
           "height": 56,
           "file": "assets/variants/9640-13847.svg",
-          "sha256": "55ca4dc43f0a2314c7932f8927cd79f2c55b8f4570364bba0255f4fe57c3c3c7"
+          "sha256": "82ad9db54fef0d3bfc018f76a6a4000622da816499930218c8d6f447e11ddc15"
         }
       }
     },
@@ -5845,14 +5845,14 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/9694-10366.svg",
-          "sha256": "d12c521746d94b383f611e5bbead18c871cea0da33cf434b9fbfa95b9e020325"
+          "sha256": "7d3ab0183287d5dcefb91cd5a64789b6957ea93639dd5e5cb3fe91883ef5da6c"
         },
         "9694:10380": {
           "label": "small-outline",
           "width": 24,
           "height": 24,
           "file": "assets/variants/9694-10380.svg",
-          "sha256": "b1804223608d663598b6b4118173a9ca1b9c2ed6c64265b2c7e4a5060612596e"
+          "sha256": "2178c24e6ec3ccd00b0ad63dca0d37afa91c91ae5b374b16129c3f6ba63b9681"
         },
         "15013:13322": {
           "label": "mono",
@@ -6021,7 +6021,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/9898-10404.svg",
-          "sha256": "75e1645eb6ea7f1c3a1667913ea0853818e8e085f14a04e1bc9960dedd11bf6b"
+          "sha256": "de7e8af25244ed6f2789a2d3fe6dad455041f3c7f7a6c0cc1d277973075906ec"
         },
         "9898:10429": {
           "label": "small-outline",
@@ -6701,28 +6701,28 @@
           "width": 56,
           "height": 56,
           "file": "assets/variants/9696-10364.svg",
-          "sha256": "3b8f94702ab3469bc950b32edf5809c3b3865f17bc946d2ac32da9b963cb0912"
+          "sha256": "1bbe13abeca1bf9ca7c1194a348d650d9a7f330a4384fd7f49661af68bc4c029"
         },
         "9696:10392": {
           "label": "outline",
           "width": 56,
           "height": 56,
           "file": "assets/variants/9696-10392.svg",
-          "sha256": "6be447c71f4f07be830e7d95c84cc70460fc7fbf2794bd5a1ceab0fd03f1ce43"
+          "sha256": "4aaa6e28e96b17893685e8c22e02843aa480e0e22963c36d848b04406737c936"
         },
         "9696:10336": {
           "label": "small",
           "width": 24,
           "height": 24,
           "file": "assets/variants/9696-10336.svg",
-          "sha256": "7a2d00680cfb2fd0735d8c7d672576153dea9f2deec76104a7643531385b7506"
+          "sha256": "46b029ba2295ad96846dcf39bbed1ebdd2f4216afa84b83f943e15abd0e05ade"
         },
         "9696:10349": {
           "label": "small-outline",
           "width": 24,
           "height": 24,
           "file": "assets/variants/9696-10349.svg",
-          "sha256": "44a851ef46cfa442922de4aeb0558e284afad4dfeb58fb87fd2a6accac8655b0"
+          "sha256": "f9d6040eba88bf7e94e437122749e561b0390244333054c72ba94555afd381c7"
         },
         "15013:13375": {
           "label": "mono",
@@ -6820,14 +6820,14 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/9960-10340.svg",
-          "sha256": "e112ccb62d1b79fa7fe750a539b5efe3e547c38fc3883f15e3fef7167b4548f3"
+          "sha256": "f77b378b09cf44d4c83224783beaf03b99595fb0bbefe61c2f93c982f213e4cb"
         },
         "9960:10347": {
           "label": "small-outline",
           "width": 24,
           "height": 24,
           "file": "assets/variants/9960-10347.svg",
-          "sha256": "d012bb8b29e74ec19bc1b76721d0abc7fc639b6dcc2ced617d12d18ce1b6722d"
+          "sha256": "313e4741a3b24a8d248c0032c63f442a13186375957fd721c2f05c073c12e8ad"
         },
         "15013:13906": {
           "label": "mono",
@@ -7074,14 +7074,14 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/9688-10873.svg",
-          "sha256": "22426b2bca73b74101b5a34369e2dc08ecb93977da96d07cf04683727fffa976"
+          "sha256": "26cd81cc4913310d89065f5e0b117ff561dee27a0953f3357826233e2c8ff413"
         },
         "9688:10898": {
           "label": "small-outline",
           "width": 24,
           "height": 24,
           "file": "assets/variants/9688-10898.svg",
-          "sha256": "f4dc19495127441c545c61f6451acbc1acfa7c98a905573943ef04cfbf41fc76"
+          "sha256": "1ed0a7d1ce905d5ba490cb6508a5fa67dc6eed30b07ede9e901ac3776e89326d"
         },
         "15013:13289": {
           "label": "mono",
@@ -7905,14 +7905,14 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/9972-10433.svg",
-          "sha256": "c25229467f3fab660b089b7d2026f33ff1dd60a36c4ebfa1a6abc4197dec8a5d"
+          "sha256": "1ac5f0d7b1847ffebefd64eeeb2518ed963009275063c739a04efce95a252671"
         },
         "9972:10442": {
           "label": "small-outline",
           "width": 24,
           "height": 24,
           "file": "assets/variants/9972-10442.svg",
-          "sha256": "08e14c639f4778cecf07966ce9532b8ed5019a4aad3082016c462f6fbba3f9a8"
+          "sha256": "23005531ea38e1b139d062b09b04e4f7c84a04c51e4b2871a90225eb6549087d"
         },
         "15013:13263": {
           "label": "mono",
@@ -8121,14 +8121,14 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/9729-10361.svg",
-          "sha256": "0dd0c5e2c86e2b67fe4c8650b305728f880c7a68b852a496d60209925425137f"
+          "sha256": "1a948c6d175c30f517b1bb7917cd2fd77101a8aed609bb57995d4c5d903094e9"
         },
         "9734:10480": {
           "label": "small-outline",
           "width": 24,
           "height": 24,
           "file": "assets/variants/9734-10480.svg",
-          "sha256": "3decad039e897fa5ad389cbb81063b90d2b2324815d5f13b65f169c88eb3ecad"
+          "sha256": "7d3619875856423164d09af2c53c2daef8c06fd37c2fb85b7e5289343d420eae"
         },
         "15013:13466": {
           "label": "mono",
@@ -8582,14 +8582,14 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/9758-11178.svg",
-          "sha256": "286e85a25f96ce1b76daa5ca802e43a680c472f23363707738c28d7eb6f25526"
+          "sha256": "272f5060938a96a9a54b63285aa55a59df184a1059c9faf8053956576e7f8ddf"
         },
         "9758:11396": {
           "label": "small-outline",
           "width": 24,
           "height": 24,
           "file": "assets/variants/9758-11396.svg",
-          "sha256": "bd2285b310d1ecf4796c3fe870b8fd1152764560d96b0e68b7df2d0c602dcdf2"
+          "sha256": "54f3db15d9cd27635136a95b5d394619f71bbc2ce2482c84e2a234168c624296"
         },
         "15013:13589": {
           "label": "mono",
@@ -9248,7 +9248,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/9499-14022.svg",
-          "sha256": "acc127cbeec3c77a52da5b00a333402a64db3e4553e96ac92612890aab6d0367"
+          "sha256": "179f985fb5973ab8b81a536fe1267cb9baf7f48b6ebb3b0a5c4c1deb1c250f79"
         },
         "15013:11311": {
           "label": "small-outline",
@@ -9888,28 +9888,28 @@
           "width": 56,
           "height": 56,
           "file": "assets/variants/8571-13291.svg",
-          "sha256": "4a887719a5c054f87da27774407c6e6bc3f7a4a7ff90545fec134f324998bdf1"
+          "sha256": "9684a0737935f10887da463b2be67102703ffa9f998152f96448f72750db6f95"
         },
         "8651:13217": {
           "label": "outline",
           "width": 56,
           "height": 56,
           "file": "assets/variants/8651-13217.svg",
-          "sha256": "723aafda0c33b2e81d3f748e82864371d800a655bb50c0854398176110bec17a"
+          "sha256": "3a1a4166227628a5492edd9997313f368a88c5790b8624b05d2885443a586dd1"
         },
         "9863:10327": {
           "label": "small",
           "width": 24,
           "height": 24,
           "file": "assets/variants/9863-10327.svg",
-          "sha256": "7780a5871f59914de24af2d6ccab364b17cee968b3a9dc0b33e30613da2e74d5"
+          "sha256": "26e5609f48bb4da79620de132ab47c86a82e44887c64f47e077faa24cfe455e2"
         },
         "9863:10410": {
           "label": "small-outline",
           "width": 24,
           "height": 24,
           "file": "assets/variants/9863-10410.svg",
-          "sha256": "38bdfda4990ab1d79a3d64929be187f3b3488c8625ac46c1564fd9bc1304a0fd"
+          "sha256": "91138fbc38d42c5f5bb188213bfd98ed77a3ec496b454619ab2c75662f5db750"
         },
         "15013:13764": {
           "label": "mono",
@@ -9948,7 +9948,7 @@
           "width": 56,
           "height": 56,
           "file": "assets/variants/8578-13422.svg",
-          "sha256": "ee68b7c1b5ba34826103a748f765914214ebc29d2252a03a4c9b243cbe67d546"
+          "sha256": "62e2f9a84c8a0277150ac41dbf83b1937517249a6767eb3752123521ac97da5e"
         },
         "8578:13476": {
           "label": "small",
@@ -9962,7 +9962,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/8578-13463.svg",
-          "sha256": "85d7bc8ee81816f86b67709a0ddfa6bcdd86c136c5cd25055e940a79bd94cd30"
+          "sha256": "0161ae0cab44ca5844a5fae8f1713dea9748cb6ac9b778e9588cdfd22fc392dd"
         },
         "15013:12982": {
           "label": "mono",
@@ -10966,5 +10966,5 @@
       }
     }
   },
-  "catalogSha256": "8b78642230080e65918952054c5c7a1d99a0cd7f0ec1d458ebca50407195c873"
+  "catalogSha256": "3bc75f9d3d63b8cdc0b05a179f4d4b259f473317d5dc7317da761956638e6115"
 }
