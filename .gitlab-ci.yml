@@ -2,3 +2,9 @@ workflow:
   rules:
     - when: never
 
+mirror_only:
+  script:
+    - echo "GitLab stores the canonical source mirror only."
+  rules:
+    - when: never
+
