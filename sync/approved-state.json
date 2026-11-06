@@ -2,10 +2,10 @@
   "version": 1,
   "summary": {
     "icons": 240,
-    "families": 189,
-    "standalone": 51,
-    "variants": 1185,
-    "mono": 189
+    "families": 190,
+    "standalone": 50,
+    "variants": 1190,
+    "mono": 190
   },
   "icons": {
     "5699:14924": {
@@ -458,21 +458,21 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/10131-11330.svg",
-          "sha256": "bed0991b547120449faceaeb00a2e27b85f85969451fd784b5743e3a1529a8f9"
+          "sha256": "7de7df9449838c86dda75732fd701309d3887bde14ff5c9f0a5790c4e35ff987"
         },
         "10131:11421": {
           "label": "small-outline",
           "width": 24,
           "height": 24,
           "file": "assets/variants/10131-11421.svg",
-          "sha256": "00ae7eed12955764adf136f9abafaaa45437eeda17cd062e763b77cd477249b6"
+          "sha256": "24e70a21d92e3de242a8e710cc1383cbab29a9bbe59943e75cbc95b2864f3771"
         },
         "15013:15102": {
           "label": "mono",
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-15102.svg",
-          "sha256": "2d62a286bb19df2d2d0a30dff5dd773b769ae44cdd634da86e6996d53dfe07d9"
+          "sha256": "f67c256e89d15ef013956a8c732d1f3db73b4d2ca8c53377be89a19f5d251961"
         },
         "15013:15115": {
           "label": "3d",
@@ -1481,7 +1481,12 @@
       "title": "Геолокация",
       "category": "Интерфейс",
       "keywords": [
-        "GPS"
+        "GPS",
+        "навигация",
+        "геопозиция",
+        "карта",
+        "логистика",
+        "точка"
       ],
       "variants": {
         "10195:10427": {
@@ -2202,14 +2207,14 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/10117-10527.svg",
-          "sha256": "08fd42e1fa8e8fad01d55f70ab1dc6bd9b53bddaa6581f392ad1845ae8ae9b72"
+          "sha256": "a2a648917ae48520632e66be1fe7ee9b3741d00216cd7c5a29d05357697485ec"
         },
         "15013:14929": {
           "label": "mono",
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-14929.svg",
-          "sha256": "01ceb2bb405ada35bcc9c76aa9a1bf65ffc27a9335999cdecbd78b38363180a3"
+          "sha256": "0cd79699d41ff089950c1ad62a59b8c318e327c1b238bdacc7a7fd86f451481e"
         },
         "15013:14936": {
           "label": "3d",
@@ -2481,7 +2486,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-13876.svg",
-          "sha256": "e6abe5032263e856fd3255c74c3c17d32fb57a6a1f8b53254528aa06c9dbd4b6"
+          "sha256": "35fc4c62a0c7106e7987b248e4396c2fdce5c30c7c42a3e6dd84be5f1114fa62"
         },
         "15013:13883": {
           "label": "3d",
@@ -2987,21 +2992,21 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/10017-10397.svg",
-          "sha256": "2d505e0e21f525a28fa89a45bed87e80bdc0d136c5a58d5431ab0cd95db3b809"
+          "sha256": "810c8e9924391e0540b0b048db96ea0859669455278ffb946ab5279aa184c283"
         },
         "10017:10409": {
           "label": "small-outline",
           "width": 24,
           "height": 24,
           "file": "assets/variants/10017-10409.svg",
-          "sha256": "2141fd61b179b35a68f0a4a596d8f199ce43c9c77b49427cc0b886d988602dca"
+          "sha256": "4059178646f06c775309051f6b91c85c6b48988f1b287bb158d1afee017523a4"
         },
         "15013:14198": {
           "label": "mono",
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-14198.svg",
-          "sha256": "035959ea6e8e5b3100c7d84d618ed3a3a16eb150341ebde448139713a9a51562"
+          "sha256": "591c92a712001170eb512e09af175483bf897e7fd140297cee6cd96910d7cefa"
         },
         "15013:14207": {
           "label": "3d",
@@ -3752,7 +3757,7 @@
           "width": 56,
           "height": 56,
           "file": "assets/variants/10188-10476.svg",
-          "sha256": "118e9c20ef8b7132fdb1f9aec3822ecfde25ee369d0833a46cb1abd00302872f"
+          "sha256": "d647c3a9c6749fc2fa076be49fbab5514c094fa729514799cd68949682f8f5b5"
         },
         "10188:10403": {
           "label": "small",
@@ -3773,7 +3778,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-15478.svg",
-          "sha256": "7f1efa77c91e86916377e73110121cd0f045de74583349f58a48ce7f9cfad5dd"
+          "sha256": "3b8f92bd571b78c1af8367cf1b2d63d1c5d12a67624f39b6aee2f2813b26c8c5"
         },
         "15013:15503": {
           "label": "3d",
@@ -3789,7 +3794,8 @@
       "title": "Круглосуточно · 2",
       "category": "Интерфейс",
       "keywords": [
-        "---"
+        "ПО",
+        "программы"
       ],
       "variants": {
         "10208:10502": {
@@ -5273,7 +5279,7 @@
           "width": 56,
           "height": 56,
           "file": "assets/variants/5711-17023.svg",
-          "sha256": "f6134e21453d05219433e293164dee6718b11dd085700166cc28c3e1b4429dfa"
+          "sha256": "6b983a1ea6094f1e198f03553de020be9ffed63cf33eadd0cd33323074ce7e16"
         },
         "5711:16971": {
           "label": "small",
@@ -5586,15 +5592,15 @@
         }
       }
     },
-    "4660:6548": {
+    "16266:8956": {
       "name": "Перевозка, транспорт",
       "title": "Перевозка, транспорт",
-      "category": "Без категории",
+      "category": "Коммуникации",
       "keywords": [
-        "Перевозка",
-        "транспорт",
-        "Перевозка",
-        "транспорт"
+        "Машина",
+        "грузовик",
+        "авто",
+        "логистика"
       ],
       "variants": {
         "4660:6548": {
@@ -5603,6 +5609,41 @@
           "height": 56,
           "file": "assets/variants/4660-6548.svg",
           "sha256": "501a5ee9f91e8df23bd1cd00d1b44cd2d9439736b6b25bdaf1483e0d6d64e66f"
+        },
+        "16266:9068": {
+          "label": "outline",
+          "width": 56,
+          "height": 56,
+          "file": "assets/variants/16266-9068.svg",
+          "sha256": "d279d5cd28271e9a43f514a752b12dc1adcdbbc73b1bd5e53d7674d1afc3b81c"
+        },
+        "16266:8991": {
+          "label": "small",
+          "width": 24,
+          "height": 24,
+          "file": "assets/variants/16266-8991.svg",
+          "sha256": "2638af75807fe95b8b09c4679df4df653b54760e2116af100e0ff61a4291d813"
+        },
+        "16266:9005": {
+          "label": "small-outline",
+          "width": 24,
+          "height": 24,
+          "file": "assets/variants/16266-9005.svg",
+          "sha256": "cb2c417e7f2067a5532a4265f4d7a2f5c021d967efea34ed223b95bd90d7a712"
+        },
+        "16266:9019": {
+          "label": "mono",
+          "width": 24,
+          "height": 24,
+          "file": "assets/variants/16266-9019.svg",
+          "sha256": "943ce90fc8292b8261eb2487d75eb4ef8d0c1e6b38ed16b65768a5b2dc2c4c51"
+        },
+        "16266:9113": {
+          "label": "3d",
+          "width": 56,
+          "height": 56,
+          "file": "assets/variants/16266-9113.svg",
+          "sha256": "68a46ad4c67cdd9d5efce8a84e0f254a2c4c3d5175732ca6e96e77bdad9254fd"
         }
       }
     },
@@ -5620,14 +5661,14 @@
           "width": 56,
           "height": 56,
           "file": "assets/variants/4533-6552.svg",
-          "sha256": "7e07dec7e87e536c96b76ee9f47d04f3ae30f606d4555ce2ac2142480650d7f6"
+          "sha256": "54f8192534700d241f7225ac1ce8b1ed5d754ba61df9edb9f620efb8f0651d8c"
         },
         "10107:10428": {
           "label": "outline",
           "width": 56,
           "height": 56,
           "file": "assets/variants/10107-10428.svg",
-          "sha256": "655c7e215181a5357e61d682d6c7a23e7dc2b84b6e0b53a9cb77b11f93627e1f"
+          "sha256": "366e40c59342abf03eca72768a9ad8aecc8695abeacee889747ba6a01a759c60"
         },
         "10107:10338": {
           "label": "small",
@@ -5686,21 +5727,21 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/10036-10349.svg",
-          "sha256": "f98746d4ab9b2fe30538de3c99a4eb9907686af1632f2b144b8532aefe67de7c"
+          "sha256": "1eea38d29b255eded6097ea366fd01510cc00e55257197e082746c526d8898cc"
         },
         "10036:10353": {
           "label": "small-outline",
           "width": 24,
           "height": 24,
           "file": "assets/variants/10036-10353.svg",
-          "sha256": "8ede5c43da4c9d750197b799edd4423e83cb0a73951f292598e50160ad07ac09"
+          "sha256": "06beda11ae7d5ca298e4334c362a8e3334e29dedae2460aac4b06dca6a1ceee1"
         },
         "15013:14346": {
           "label": "mono",
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-14346.svg",
-          "sha256": "728504336b0dcd60dd929e12fcf3a83e728370c029637b0022ef82dbdab32a29"
+          "sha256": "5e9567873d4afa1a219d46d2f04c7d83007df963ff49b6d75ce9f1606a6b352b"
         },
         "15013:14352": {
           "label": "3d",
@@ -6014,7 +6055,7 @@
           "width": 56,
           "height": 56,
           "file": "assets/variants/9889-10791.svg",
-          "sha256": "01af843e3a9875a4aa972c0ebe35bf4828b62f743712fca7647f5844f4bab725"
+          "sha256": "146f451ba2cfa8362288243408635955da33b38384b5e021f32e467f9545233d"
         },
         "9898:10404": {
           "label": "small",
@@ -7316,14 +7357,14 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/10119-10624.svg",
-          "sha256": "40bda439c4129da46f7f91cc0538698c11826e1ad48bb94d772a6d695e30c4d9"
+          "sha256": "5371df7fbc688eede928a3ccdc6c35ceb9d613c701b2e3e9317017fb4ea7b928"
         },
         "15013:14954": {
           "label": "mono",
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-14954.svg",
-          "sha256": "c87cdd889991a72c3741f7a5b6039ebd18275693e6ca0073ff4e723a90e2e2c0"
+          "sha256": "8ee7b7735d3445fe48141ed7cdf3d91cb48d077b115fbf3f241dc0a5df9136ce"
         },
         "15013:14966": {
           "label": "3d",
@@ -7355,7 +7396,7 @@
           "width": 56,
           "height": 56,
           "file": "assets/variants/7875-11218.svg",
-          "sha256": "a0b237cfa439cedc58d8a0ac7d51fe2c6531906189780e1be4340d8c4131b6f0"
+          "sha256": "9b0cbe20a2746931bff24a662ecd1ec0d15cb97fcc457485c0381f0f030ec07d"
         },
         "8524:13414": {
           "label": "small",
@@ -7444,7 +7485,9 @@
       "title": "Сервер",
       "category": "Системы",
       "keywords": [
-        "Сеть"
+        "Сеть",
+        "сервер",
+        "база данных"
       ],
       "variants": {
         "10196:10420": {
@@ -7496,7 +7539,9 @@
       "title": "Сервер2",
       "category": "Системы",
       "keywords": [
-        "Сеть"
+        "Сеть",
+        "сервер",
+        "база данных"
       ],
       "variants": {
         "1:10852": {
@@ -9155,7 +9200,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-15041.svg",
-          "sha256": "c88e02e39983bbd1f24da0c4ff60ab4aa1248b07ddc0fe5c72f392134cc75e0b"
+          "sha256": "cd0c419db8c3c570a8b0b0401a1ab1bc8b06679ac765ded86f0b8b929ebbbd1b"
         },
         "15013:15048": {
           "label": "3d",
@@ -10133,14 +10178,14 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/5699-14566.svg",
-          "sha256": "e72c7e9f7b7980b0c4dc43824a5ebbabb700438549ce40f9a82a15836a543dc2"
+          "sha256": "81e0dc83b7b8162afe4cff01f382aec66f1fc8a4872d58acba3585e92c705480"
         },
         "5788:11440": {
           "label": "small-outline",
           "width": 24,
           "height": 24,
           "file": "assets/variants/5788-11440.svg",
-          "sha256": "1f63611d02fdbe8a9a60e807bc100791cadfadde178e5ee0a2a7e3ff40eca04e"
+          "sha256": "a62f7c1ce8bd2753bb1ae8f7b33fe0a9b0672c428eb42ee0302257d9a33d8ff7"
         },
         "15013:11586": {
           "label": "mono",
@@ -10398,21 +10443,21 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/10054-10342.svg",
-          "sha256": "83c1610d6679d90bf255f124ab0b37d597ebfbb61b1d2f465c5c9aa71aa567ab"
+          "sha256": "062fa382fec69b357de3d91c18193133e8d872a047a86ad346ce01901da7bb63"
         },
         "10054:10346": {
           "label": "small-outline",
           "width": 24,
           "height": 24,
           "file": "assets/variants/10054-10346.svg",
-          "sha256": "ae6c8484f82798681c344ae4b88593fefd6579788262c2fc3e6c76894b72d3a7"
+          "sha256": "34b6b881c01b6911b7786255dcf75b0ba40bcc6757bd01535e9affd30e3a59eb"
         },
         "15013:14527": {
           "label": "mono",
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-14527.svg",
-          "sha256": "9a70284aa458213c4ba205631dafcd1a86770b341e4dfe6d911b472f3c19a4c1"
+          "sha256": "774af6c7b33a0b60f490567879b18f770c73b687f7e47ff2652ddb113c989cb5"
         },
         "15013:14531": {
           "label": "3d",
@@ -10750,21 +10795,21 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/5418-16980.svg",
-          "sha256": "09e0016ebe3c03d0a9d40b3d37d69bfed85a6cb153040f01e508d17c1b48e980"
+          "sha256": "098ed29d61951e1280c6009cd55b51d351133a3dad4eb0e83d8f6b34cb88a836"
         },
         "6737:11503": {
           "label": "small-outline",
           "width": 24,
           "height": 24,
           "file": "assets/variants/6737-11503.svg",
-          "sha256": "27b538ed75a942ca591740b75a2b5f54d50129695cf10a38d77dee95ed088485"
+          "sha256": "9df1384179184f5cc6bc03b5f5e554ced67f3558e9f780e739be8969f8cca163"
         },
         "15013:11815": {
           "label": "mono",
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-11815.svg",
-          "sha256": "0f716d17ff347ecdb0737b58c5d558a1c1ca5f3375c6640e0bf560db37513d0c"
+          "sha256": "8694348d187fd7f1384d0eae6632cb169d529da662a722bb2d58e6e170ca7032"
         },
         "2328:2843": {
           "label": "3d",
@@ -10814,7 +10859,9 @@
       "title": "supply&development",
       "category": "Без категории",
       "keywords": [
-        "supply&amp;amp;development"
+        "supply&amp",
+        "amp",
+        "development"
       ],
       "variants": {
         "5418:17234": {
@@ -10827,8 +10874,8 @@
       }
     },
     "3635:6199": {
-      "name": "TechPartners",
-      "title": "TechPartners",
+      "name": "Техническое партнерство",
+      "title": "Техническое партнерство",
       "category": "Без категории",
       "keywords": [
         "TechPartners",
@@ -10966,5 +11013,5 @@
       }
     }
   },
-  "catalogSha256": "3bc75f9d3d63b8cdc0b05a179f4d4b259f473317d5dc7317da761956638e6115"
+  "catalogSha256": "d7d95b7e657557f43c48294db57f0501c333916f4476c4ac7438c3950cfb9b22"
 }
