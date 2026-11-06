@@ -4,6 +4,6 @@
 <rect x="14.5" y="0.5" width="2" height="3" rx="0.785714" fill="black" stroke="black"/>
 <path d="M16.5 7.5L6.5 7.5" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M13.5 10.5H6.5" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M23 12L17 19L13 15.5" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22.2411 11.3496C22.6005 10.9302 23.231 10.8817 23.6503 11.2412C24.0696 11.6006 24.1181 12.231 23.7587 12.6503L17.7587 19.6503C17.5849 19.853 17.3375 19.9779 17.0712 19.997C16.8052 20.016 16.5425 19.9284 16.3417 19.7529L12.3417 16.2529C11.9262 15.8893 11.8836 15.2574 12.247 14.8417C12.6106 14.4262 13.2425 14.3837 13.6581 14.747L16.8983 17.582L22.2411 11.3496Z" fill="black"/>
 </svg>
 

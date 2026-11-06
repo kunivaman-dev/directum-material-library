@@ -4,7 +4,7 @@ vm.createContext(context);
 vm.runInContext(fs.readFileSync('public/catalog.js','utf8'),context);
 const catalog=context.window.ICON_CATALOG;
 assert.strictEqual(catalog.length,240,'catalog must contain every Figma owner');
-assert.strictEqual(catalog.flatMap(x=>x.variants).length,1185,'variant count must match Figma');
+assert.strictEqual(catalog.flatMap(x=>x.variants).length,1190,'variant count must match Figma');
 assert.deepStrictEqual([...new Set(catalog.map(x=>x.cat))].sort(),[
   'Без категории','Бизнес-процессы','Документы','Интерфейс','Коммуникации','Отрасли','Пользователи','Системы'
 ]);
