@@ -1,10 +1,10 @@
 {
   "version": 1,
   "summary": {
-    "icons": 240,
+    "icons": 238,
     "families": 190,
-    "standalone": 50,
-    "variants": 1190,
+    "standalone": 48,
+    "variants": 1188,
     "mono": 190
   },
   "icons": {
@@ -231,7 +231,7 @@
           "width": 56,
           "height": 56,
           "file": "assets/variants/6338-11514.svg",
-          "sha256": "09e87ce8cc17387b3c483a9787927883ce5ed21c11345b186d451622581b675a"
+          "sha256": "de7ca2f2ff5ca580898125345dd1c9af0f17f27652f646483ebfe3f21f008155"
         },
         "10122:11079": {
           "label": "outline",
@@ -489,7 +489,8 @@
       "category": "Системы",
       "keywords": [
         "Данные",
-        "хранение"
+        "хранение",
+        "база данных"
       ],
       "variants": {
         "2986:5868": {
@@ -542,7 +543,8 @@
       "category": "Системы",
       "keywords": [
         "Данные",
-        "хранение"
+        "хранение",
+        "база данных"
       ],
       "variants": {
         "483:5120": {
@@ -564,21 +566,21 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/10002-10547.svg",
-          "sha256": "08ed10af10d84ac6c31db2126521edc2d3748fd8108225e47732c70e3820a4e2"
+          "sha256": "8abde83259779cbd1cdb259d7ddac7f6c43cd314e6beb2a646e372798a94ee8d"
         },
         "10003:10335": {
           "label": "small-outline",
           "width": 24,
           "height": 24,
           "file": "assets/variants/10003-10335.svg",
-          "sha256": "46f2f202515a6b1cf8f8d635748c7581bdec03db9489088e2def69d285b6998e"
+          "sha256": "d8e102336de4f8558bed7895cdbee02a3339a0e68e39a825d48705b5601b6b28"
         },
         "15013:14134": {
           "label": "mono",
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-14134.svg",
-          "sha256": "ee46d7cfefe162c10b72904e88fafccce2f1d4e11e0121e0cb9906b84ebca215"
+          "sha256": "9adb83bdbb66dc09ee26d835fc44047769059e7d754b9fec55c40f774a3fb5d2"
         },
         "15013:14146": {
           "label": "3d",
@@ -1681,7 +1683,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-15892.svg",
-          "sha256": "a4d975594be8a6145eaee2d8f662ae206c05628b1019ed0a356970e987015f32"
+          "sha256": "12011330a09b8056965489d5981f4f8d136bc0d73f479601ad6a0c91f81643b1"
         },
         "15013:15918": {
           "label": "3d",
@@ -2576,21 +2578,21 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/9972-10697.svg",
-          "sha256": "ead9d1e402c9cde17e9c7023dbb2db0016bd378a24e6a7f61145dac4a33fb3c6"
+          "sha256": "2d4bb6c9599b0c97fa7751d86ebbdee1a88aa403ae40abb27eab7ed917a77e10"
         },
         "9972:10703": {
           "label": "small-outline",
           "width": 24,
           "height": 24,
           "file": "assets/variants/9972-10703.svg",
-          "sha256": "8dbb0fb4597713b8878d5da2db7daba3f054fed7aed74dbd3945a79123b1e53f"
+          "sha256": "b8e2fdd9d0a3b195300216f6ba6b761f297703fe6b2ac4a4aa607cb8ac595a24"
         },
         "15013:14092": {
           "label": "mono",
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-14092.svg",
-          "sha256": "31495fe72b6d5c027729713a53cc643c5ccc8f882a81c7e949a8dbda2bd9ed2f"
+          "sha256": "dd23e7764dc756f0f9f107487a55203f3d4ee1ac035ee8e5cbd8e951329358ec"
         },
         "15013:14100": {
           "label": "3d",
@@ -2874,14 +2876,14 @@
           "width": 56,
           "height": 56,
           "file": "assets/variants/10071-10507.svg",
-          "sha256": "6b42a5a8c25e769b7019f92e556e7c7b8c01da851dd1d3a49afa86de258a547c"
+          "sha256": "9687008d0cceffaa155364852906c73bd77acdb5e4c4022dcf5f7710308e96b6"
         },
         "10071:10513": {
           "label": "outline",
           "width": 56,
           "height": 56,
           "file": "assets/variants/10071-10513.svg",
-          "sha256": "d3112d81f296036bcaa14a9cc47c7ddf590ad61d91e563cad7d0f58194c58efe"
+          "sha256": "2f014cc8f9791f7cd6c21e030c20e88122426a2f703b0c8b52a6cc863c3d919d"
         },
         "10071:10447": {
           "label": "small",
@@ -3123,40 +3125,6 @@
           "height": 56,
           "file": "assets/variants/15013-12734.svg",
           "sha256": "ae4332dfd5cb585b896a5094a912ccd75334770c08e97278e67c113e23dbaa0e"
-        }
-      }
-    },
-    "5418:17271": {
-      "name": "ИМпортозамещение",
-      "title": "ИМпортозамещение · 1",
-      "category": "Без категории",
-      "keywords": [
-        "ИМпортозамещение"
-      ],
-      "variants": {
-        "5418:17271": {
-          "label": "base",
-          "width": 24,
-          "height": 24,
-          "file": "assets/variants/5418-17271.svg",
-          "sha256": "62be82952aff0cc0ec87259f5bb45158be399ce66fe25043df111fd7beae8950"
-        }
-      }
-    },
-    "7569:11009": {
-      "name": "ИМпортозамещение",
-      "title": "ИМпортозамещение · 2",
-      "category": "Без категории",
-      "keywords": [
-        "ИМпортозамещение"
-      ],
-      "variants": {
-        "7569:11009": {
-          "label": "base",
-          "width": 56,
-          "height": 56,
-          "file": "assets/variants/7569-11009.svg",
-          "sha256": "54fd3499d56a356ba5cb76c4b5476f670a9e982833947768a0cb7f618a68b2d6"
         }
       }
     },
@@ -5406,7 +5374,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-15020.svg",
-          "sha256": "ef3451b0c6d5663fc07a11491f1c18c1b57930eec20dc97cea96848c7274d943"
+          "sha256": "dc2509d7e4f7377219d75c49faaf1dd362deb7c8a1e95c2bcd2ab0b7b504e7a1"
         },
         "15013:15026": {
           "label": "3d",
@@ -5592,7 +5560,7 @@
         }
       }
     },
-    "16266:8956": {
+    "16308:9189": {
       "name": "Перевозка, транспорт",
       "title": "Перевозка, транспорт",
       "category": "Коммуникации",
@@ -5603,47 +5571,47 @@
         "логистика"
       ],
       "variants": {
-        "4660:6548": {
+        "16308:9190": {
           "label": "base",
           "width": 56,
           "height": 56,
-          "file": "assets/variants/4660-6548.svg",
+          "file": "assets/variants/16308-9190.svg",
           "sha256": "501a5ee9f91e8df23bd1cd00d1b44cd2d9439736b6b25bdaf1483e0d6d64e66f"
         },
-        "16266:9068": {
+        "16308:9200": {
           "label": "outline",
           "width": 56,
           "height": 56,
-          "file": "assets/variants/16266-9068.svg",
-          "sha256": "d279d5cd28271e9a43f514a752b12dc1adcdbbc73b1bd5e53d7674d1afc3b81c"
+          "file": "assets/variants/16308-9200.svg",
+          "sha256": "161fc63ea714c7dc6a976557e8c24aef9e0b2abffe6fa1b427868bb0bf7a8d2a"
         },
-        "16266:8991": {
+        "16308:9210": {
           "label": "small",
           "width": 24,
           "height": 24,
-          "file": "assets/variants/16266-8991.svg",
-          "sha256": "2638af75807fe95b8b09c4679df4df653b54760e2116af100e0ff61a4291d813"
+          "file": "assets/variants/16308-9210.svg",
+          "sha256": "1cd44ccc2334f73b4256a35b8de3039625893bc27c3d11978aeee344b1964d42"
         },
-        "16266:9005": {
+        "16308:9224": {
           "label": "small-outline",
           "width": 24,
           "height": 24,
-          "file": "assets/variants/16266-9005.svg",
-          "sha256": "cb2c417e7f2067a5532a4265f4d7a2f5c021d967efea34ed223b95bd90d7a712"
+          "file": "assets/variants/16308-9224.svg",
+          "sha256": "1f9823004a7d2813b43e27c8773c1b00b1e5a7c862809f36068ad5750cf03eda"
         },
-        "16266:9019": {
+        "16308:9232": {
           "label": "mono",
           "width": 24,
           "height": 24,
-          "file": "assets/variants/16266-9019.svg",
-          "sha256": "943ce90fc8292b8261eb2487d75eb4ef8d0c1e6b38ed16b65768a5b2dc2c4c51"
+          "file": "assets/variants/16308-9232.svg",
+          "sha256": "449abe16fd01acd16eab3ee176d3c0d729ae9a0f987d1c605a5d9ef04d66fb05"
         },
-        "16266:9113": {
+        "16308:9239": {
           "label": "3d",
           "width": 56,
           "height": 56,
-          "file": "assets/variants/16266-9113.svg",
-          "sha256": "68a46ad4c67cdd9d5efce8a84e0f254a2c4c3d5175732ca6e96e77bdad9254fd"
+          "file": "assets/variants/16308-9239.svg",
+          "sha256": "501a5ee9f91e8df23bd1cd00d1b44cd2d9439736b6b25bdaf1483e0d6d64e66f"
         }
       }
     },
@@ -5820,7 +5788,7 @@
           "width": 56,
           "height": 56,
           "file": "assets/variants/7983-11161.svg",
-          "sha256": "68390974aed07a1697f30cdfb9ef2d3bf3f22702b9628509b01cf3134d9d82bd"
+          "sha256": "4746d268554035163e92b8a18195934e16b17c15aeb7f1ad958b999f72b7f681"
         },
         "10051:10303": {
           "label": "outline",
@@ -5848,7 +5816,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-14401.svg",
-          "sha256": "1778c31881af4e8cab5c1c6d639c6d0488bd74940853f801deea6dc7d2a11885"
+          "sha256": "3a8f7ac161a3450977475f278dbfea852db1f271360aa46639303a2158a53fae"
         },
         "15013:14417": {
           "label": "3d",
@@ -6704,21 +6672,21 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/10051-10436.svg",
-          "sha256": "27e94d7b0084ca5c196998772aaaf342a00c6671f3ff89a354f8840886ef3871"
+          "sha256": "b2e0fba07a339d4ebd8bd6dfa1738624b02816b5c05edcb2e2830e63ff075a5c"
         },
         "10051:10504": {
           "label": "small-outline",
           "width": 24,
           "height": 24,
           "file": "assets/variants/10051-10504.svg",
-          "sha256": "9dfa6cb146d72f3ea1de25ac9d09644495d7a92c33b9b3c1cf37c7499d3d1166"
+          "sha256": "6f933aa086eac80ff23ed4fe5ca2cb1c7a4a6e26523889e0a4f7c5b7ddb69ee0"
         },
         "15013:14450": {
           "label": "mono",
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-14450.svg",
-          "sha256": "f3f5e4caa8f2ff2ace209a69dc06c66b68323b400b2f1da06155a46292b4cb53"
+          "sha256": "ed2023b6a5bb46ea8eeafe14251ccf99c97ee4e232aa1d035d00588dfeed5c0f"
         },
         "15013:14460": {
           "label": "3d",
@@ -7328,7 +7296,9 @@
       "title": "Резюме",
       "category": "Пользователи",
       "keywords": [
-        "Папка"
+        "Папка",
+        "личные данные",
+        "кадровые документы"
       ],
       "variants": {
         "10119:10570": {
@@ -7912,7 +7882,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-15441.svg",
-          "sha256": "b26ad675f7eb86b66f16895edb4e2820f701939cde31b03eaf5c2eb3dc127280"
+          "sha256": "9b3ef56afa81ceb1616d86a52ff5e1bf2540ba2be66ffd6794bdcef543415389"
         },
         "15013:15469": {
           "label": "3d",
@@ -10498,21 +10468,21 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/10061-10434.svg",
-          "sha256": "2d5e0d42d2445c16d42ae98b62734127774a0ffb9ac85bb031e7db0ddb2c2144"
+          "sha256": "1374541691a7f1c214b59d3ca5970225c2d66414e882ef8a70d2c2c47ebca7b1"
         },
         "10061:10438": {
           "label": "small-outline",
           "width": 24,
           "height": 24,
           "file": "assets/variants/10061-10438.svg",
-          "sha256": "e1cf5df6305ff4d1e0556e88924bacba029fb6ddcef3ef5d18ef9df9d2dd42f7"
+          "sha256": "8611ac9938dc75cf95f367da619fc18b361a5787789b9ca567b9fd39716eebec"
         },
         "15013:14482": {
           "label": "mono",
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-14482.svg",
-          "sha256": "af8c1d8a7bd07aaef1ef6284de952ee57d46a2e7093df20650001631962a4b97"
+          "sha256": "80af759a0001a8b18a96be143b35afd97c168e4aaea4e03339b09bb134cc9436"
         },
         "15013:14487": {
           "label": "3d",
@@ -10721,7 +10691,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-15845.svg",
-          "sha256": "285b671c84ead69b6cbde20ddd55dfc45d87bf980063f04c3e17f92b26cac8b3"
+          "sha256": "de3475d2831ef7d27813c532f1f6ae213daeef9353c2dac865df5981df863623"
         },
         "15013:15870": {
           "label": "3d",
@@ -11013,5 +10983,5 @@
       }
     }
   },
-  "catalogSha256": "d7d95b7e657557f43c48294db57f0501c333916f4476c4ac7438c3950cfb9b22"
+  "catalogSha256": "7d187aab02f957bfd231f112153df826e46ccda20aee155bde8858d1406904a0"
 }
