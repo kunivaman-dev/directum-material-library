@@ -4,6 +4,6 @@
 <path d="M13 7.5H18" stroke="#1C2150" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M10 18H6.5L6.5 15H10M10 18H17.5V15H10M10 18V16V15" stroke="#1C2150" stroke-linecap="round"/>
 <path d="M10 15H6.5L6.5 12H10M10 15H17.5V12H10M10 15V13V12" stroke="#1C2150" stroke-linecap="round"/>
-<path d="M6 20.5V17.5H10H18V20.5H10H6Z" fill="#FF8000"/>
+<path d="M6 20.5V17.5H10H18V20.5H10H6Z" fill="#1C2150"/>
 </svg>
 
