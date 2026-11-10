@@ -3008,7 +3008,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-14198.svg",
-          "sha256": "591c92a712001170eb512e09af175483bf897e7fd140297cee6cd96910d7cefa"
+          "sha256": "6444a374fff159b1c33c23888902aabbe400e4a3a4b5224448a94f706d5db31e"
         },
         "15013:14207": {
           "label": "3d",
@@ -5159,7 +5159,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-16162.svg",
-          "sha256": "668935b5e97cd87b599ec5c959732b26ede7834b896b5517dd0985652b0ddcbb"
+          "sha256": "0317fe15b241322363ce37056cfd171b49098d4746c95e39c94cfd0a2228994f"
         },
         "2328:2628": {
           "label": "3d",
@@ -8336,7 +8336,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-16463.svg",
-          "sha256": "f54186cfe10d2c30091235a04225535c39a0f2a72c1beed7e2483d156ce77a98"
+          "sha256": "021e3b627f3ac5a11de100f921aa2349e2d3045203c2556e549c3ff182e07768"
         },
         "15013:16471": {
           "label": "mono",
@@ -8597,21 +8597,21 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/9758-11178.svg",
-          "sha256": "272f5060938a96a9a54b63285aa55a59df184a1059c9faf8053956576e7f8ddf"
+          "sha256": "dbc7da0ae7dca63105a405d92e71d772a5c3cf80ed9ed10bbfd9c663bcf92745"
         },
         "9758:11396": {
           "label": "small-outline",
           "width": 24,
           "height": 24,
           "file": "assets/variants/9758-11396.svg",
-          "sha256": "54f3db15d9cd27635136a95b5d394619f71bbc2ce2482c84e2a234168c624296"
+          "sha256": "60efb2ba9e011f07449caefe65da774339ab8b83e3519fc4f610dd3946de5146"
         },
         "15013:13589": {
           "label": "mono",
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-13589.svg",
-          "sha256": "7a1f3d999f85ab5150bfd173b9183b1c2409505772b234094093e76e5cdad8d7"
+          "sha256": "9d03034e38c3de2fbe3b37f4e03dee93bc8c6f70aa9033271797e585b2e2785a"
         },
         "15013:13604": {
           "label": "3d",
@@ -8954,7 +8954,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/8294-13097.svg",
-          "sha256": "e81e8496fefef74a1f1b99695860eb8202ec07847118391b5ea8103edd412c49"
+          "sha256": "413ff76410f57f7f0d22f798cbf983b2b1621e77ea0263982d2207500cefec34"
         },
         "2306:2481": {
           "label": "3d",
@@ -10373,7 +10373,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-11333.svg",
-          "sha256": "b2246298b8aa074618d4e1e26e8d7446e65c96a8122a1a9f8a6655d4c8d12e00"
+          "sha256": "0e3157df062af9616aacbe95028ca535605c35fa60eea881f3d9be6fdaf7008c"
         },
         "2317:2227": {
           "label": "3d",
@@ -10482,7 +10482,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-14482.svg",
-          "sha256": "80af759a0001a8b18a96be143b35afd97c168e4aaea4e03339b09bb134cc9436"
+          "sha256": "51932e7be782cd59401b95d06a2924a79e031158f567d5dbc02423b0c685c3ee"
         },
         "15013:14487": {
           "label": "3d",
@@ -10983,5 +10983,5 @@
       }
     }
   },
-  "catalogSha256": "7d187aab02f957bfd231f112153df826e46ccda20aee155bde8858d1406904a0"
+  "catalogSha256": "d28785866cd11a045b33c7da72e688851f5e7eb08e0ced72e81bb49725623a48"
 }
