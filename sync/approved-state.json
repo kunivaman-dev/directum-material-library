@@ -10829,9 +10829,7 @@
       "title": "supply&development",
       "category": "Без категории",
       "keywords": [
-        "supply&amp",
-        "amp",
-        "development"
+        "supply&amp;amp;development"
       ],
       "variants": {
         "5418:17234": {
@@ -10983,5 +10981,5 @@
       }
     }
   },
-  "catalogSha256": "d28785866cd11a045b33c7da72e688851f5e7eb08e0ced72e81bb49725623a48"
+  "catalogSha256": "66ff63dcd5789510e4b5f03cc397d225b5b2e12f9581f372c479a4ac9dafc8a0"
 }
