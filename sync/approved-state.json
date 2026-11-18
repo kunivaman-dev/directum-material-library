@@ -206,7 +206,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-15371.svg",
-          "sha256": "2d52a956863f8b7cc2e8d2daba8616ffbe1771d04593b9893aa2935c9308b7f6"
+          "sha256": "02467d3ecdc3e7df4a3b4f5d2d3d1d3922eee6fd2fd7ef5559a38b8286c07cf0"
         },
         "15013:15378": {
           "label": "3d",
@@ -580,7 +580,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-14134.svg",
-          "sha256": "9adb83bdbb66dc09ee26d835fc44047769059e7d754b9fec55c40f774a3fb5d2"
+          "sha256": "055dc8d4694ad37af210884173446ea6153f3ae1a01292dcd71151efdd74e8fe"
         },
         "15013:14146": {
           "label": "3d",
@@ -1130,7 +1130,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-14245.svg",
-          "sha256": "80577e4b1cc3fc3e8625f7d00f1f6912e1fe9612765e01597318e8e9af480941"
+          "sha256": "45f3e6ef2cfc18c008e208ff0dcbc849f949847abddcc46bcf6ec436d0a34fd7"
         },
         "15013:14252": {
           "label": "3d",
@@ -2540,7 +2540,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-14029.svg",
-          "sha256": "e901ee2bb109b4ce94c4670aff0f32af04b639625350f9522cfaa32674b413a0"
+          "sha256": "83f5b9cf7b584134f797f64a9123ecc37c3ade0547fbbc2753abcf4f665b6a29"
         },
         "15013:14036": {
           "label": "3d",
@@ -6248,7 +6248,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/8016-11287.svg",
-          "sha256": "16eb54326c6362beaa2afaf496719eebe17ab7a0dbbbde2a0ebec7503aa4e51a"
+          "sha256": "ec152f9b713f2a6ba54b331fe7ea9273bc293998403aa8c81d900a8bdab8a5f3"
         },
         "8212:11659": {
           "label": "mono",
@@ -6309,7 +6309,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-15135.svg",
-          "sha256": "b78552056834029558a090baae0982cfac9e9370195f9a2fbd218801ed749f8a"
+          "sha256": "58e46e623a14478433b77bd50f187ebe87bb5efa70ced881c2e35ed26b5edbbe"
         },
         "15013:15150": {
           "label": "3d",
@@ -8172,9 +8172,9 @@
         "5418:17212": {
           "label": "base",
           "width": 24,
-          "height": 29.41948699951172,
+          "height": 24,
           "file": "assets/variants/5418-17212.svg",
-          "sha256": "f5746ec1348765dc4e5ca83a9b9037a99fcd91a2982f627a19605433bc7f490f"
+          "sha256": "8f9cef5a3173d823995d148e76b7489c32289e5bd9b21951fb62542bc062c8c7"
         }
       }
     },
@@ -8336,7 +8336,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-16463.svg",
-          "sha256": "021e3b627f3ac5a11de100f921aa2349e2d3045203c2556e549c3ff182e07768"
+          "sha256": "282797894a64a6af9deced664e536aec2b6a0ff343a5a35a208dbd2ecf9efb1c"
         },
         "15013:16471": {
           "label": "mono",
@@ -8450,7 +8450,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-15387.svg",
-          "sha256": "64330d48eb6abb013b502bcd4c56e853358bdadfc14bdd569eac1b9000c6fef8"
+          "sha256": "666dc19f605c79966c25ee3641eb8aa264ee7b810b02f982838186ec70052e89"
         },
         "15013:15396": {
           "label": "3d",
@@ -8489,14 +8489,14 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/7872-10784.svg",
-          "sha256": "8fd96c7cbe12965b822928d08cfb241c5173700e0a52bee73d1870daa52ca47b"
+          "sha256": "5fc81efe5558ded34bdf42b0621c95cb843f8c1f2b22ae0eebd44d4581970676"
         },
         "7872:10787": {
           "label": "small-outline",
           "width": 24,
           "height": 24,
           "file": "assets/variants/7872-10787.svg",
-          "sha256": "636c04910bcb180d0b6fede49ee5f674bb08e4e61f821ce32356ad95b8101d65"
+          "sha256": "ebac6e1bf1ed364732b9563e472f748fa444ef4c070e1e2544f48ca7d3e380e0"
         },
         "15013:16337": {
           "label": "mono",
@@ -8542,21 +8542,21 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/8300-13174.svg",
-          "sha256": "6037a83736fa34ade3419466a962c4d65d32c2e4834fa5518ca2831b8a4ae41a"
+          "sha256": "c7fa4162655b93f533038045c71c2f2d304c5749ada88d8874eeb3b00b1b7762"
         },
         "8300:13181": {
           "label": "small-outline",
           "width": 24,
           "height": 24,
           "file": "assets/variants/8300-13181.svg",
-          "sha256": "4daebb71f219db248f2e53688a0f5838b41611378b8a602a9f1495c35e37445b"
+          "sha256": "6bc738517eccc4942c32e453def23222fc7978f68a22cdeee196c089b0306d33"
         },
         "15013:16330": {
           "label": "mono",
           "width": 24,
           "height": 24,
           "file": "assets/variants/15013-16330.svg",
-          "sha256": "d6f63e5f616368105ad6826ab172ec564a1c72ffd81c8353608945622423b117"
+          "sha256": "7030d7d696db98b10396faf4183fb3ef4dcc60b827918032a7e9acd120aa57cb"
         },
         "8300:13189": {
           "label": "3d",
@@ -8954,7 +8954,7 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/8294-13097.svg",
-          "sha256": "413ff76410f57f7f0d22f798cbf983b2b1621e77ea0263982d2207500cefec34"
+          "sha256": "450600f69cb0f061c0866bb7ec48b3041a21d138832e5d03008b7be65c59dda4"
         },
         "2306:2481": {
           "label": "3d",
@@ -8995,14 +8995,14 @@
           "width": 24,
           "height": 24,
           "file": "assets/variants/5693-13645.svg",
-          "sha256": "125e666072e6a7c043e8a975ceb8a8294054118a9ac2b4f0c8523392dcd2230b"
+          "sha256": "591768ff21ff7d8a9fb3c090529dd55084969a717bd8b37d0072572aebb6ef24"
         },
         "5693:13757": {
           "label": "small-outline",
           "width": 24,
           "height": 24,
           "file": "assets/variants/5693-13757.svg",
-          "sha256": "39b70dbb68efd69fbd81a79299294e9bb2437ec08f8515383bda51bb18ac9c0b"
+          "sha256": "e15e16b617c6bfd7b745f9e0877d50cd82e956b55c292c1373820f4e6a992ca1"
         },
         "15013:16360": {
           "label": "mono",
@@ -10981,5 +10981,5 @@
       }
     }
   },
-  "catalogSha256": "66ff63dcd5789510e4b5f03cc397d225b5b2e12f9581f372c479a4ac9dafc8a0"
+  "catalogSha256": "b796f13124beb0344c1e42083c98b0a3a078f9afb6bd689c1811e7cd32c2e224"
 }
